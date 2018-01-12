@@ -26,6 +26,9 @@
 		82194E9D1DCC7F49003F2BA1 /* MainPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82194E9C1DCC7F49003F2BA1 /* MainPresenter.m */; };
 		8224B5B81DCB7AAC00AE606F /* MACOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8224B5B51DCB7AAC00AE606F /* MACOperation.m */; };
 		8224B5B91DCB7AAC00AE606F /* PingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8224B5B71DCB7AAC00AE606F /* PingOperation.m */; };
+		A3B7E6D12007B7D400BD510D /* PortScanOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B7E6D02007B7D400BD510D /* PortScanOperation.m */; };
+		A3B7E6D52007BB9C00BD510D /* PortScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B7E6D42007BB9C00BD510D /* PortScanner.m */; };
+		A3B7E6DA2008FFFD00BD510D /* services.list in Resources */ = {isa = PBXBuildFile; fileRef = A3B7E6CE2007B77200BD510D /* services.list */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +69,12 @@
 		8224B5B51DCB7AAC00AE606F /* MACOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MACOperation.m; path = ../../MMLanScan/Misc/MACOperation.m; sourceTree = "<group>"; };
 		8224B5B61DCB7AAC00AE606F /* PingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PingOperation.h; path = ../../MMLanScan/Misc/PingOperation.h; sourceTree = "<group>"; };
 		8224B5B71DCB7AAC00AE606F /* PingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PingOperation.m; path = ../../MMLanScan/Misc/PingOperation.m; sourceTree = "<group>"; };
+		A3B7E6CE2007B77200BD510D /* services.list */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = services.list; sourceTree = "<group>"; };
+		A3B7E6D02007B7D400BD510D /* PortScanOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortScanOperation.m; sourceTree = "<group>"; };
+		A3B7E6D22007B7E900BD510D /* PortScanOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortScanOperation.h; sourceTree = "<group>"; };
+		A3B7E6D42007BB9C00BD510D /* PortScanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortScanner.m; sourceTree = "<group>"; };
+		A3B7E6D62007BBA600BD510D /* PortScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortScanner.h; sourceTree = "<group>"; };
+		A3B7E6D92007BCC600BD510D /* PortInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortInfo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +111,7 @@
 		270DDA011E4655C50041A61B /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				A3B7E6CE2007B77200BD510D /* services.list */,
 				27603A681E3AAE4C00F17DB5 /* data.plist */,
 			);
 			name = Data;
@@ -227,6 +237,8 @@
 				8224B5B51DCB7AAC00AE606F /* MACOperation.m */,
 				8224B5B61DCB7AAC00AE606F /* PingOperation.h */,
 				8224B5B71DCB7AAC00AE606F /* PingOperation.m */,
+				A3B7E6D02007B7D400BD510D /* PortScanOperation.m */,
+				A3B7E6D22007B7E900BD510D /* PortScanOperation.h */,
 			);
 			name = Operations;
 			sourceTree = "<group>";
@@ -234,6 +246,7 @@
 		27F479D51DCBF1BA00672012 /* External Libs */ = {
 			isa = PBXGroup;
 			children = (
+				A3B7E6D32007BB7800BD510D /* PortScanner */,
 				270DD9FD1E4653EE0041A61B /* SimplePing */,
 				27DBEFFD1E45FEC300685616 /* MacFinder */,
 			);
@@ -262,6 +275,16 @@
 				82194E9C1DCC7F49003F2BA1 /* MainPresenter.m */,
 			);
 			name = MainVC;
+			sourceTree = "<group>";
+		};
+		A3B7E6D32007BB7800BD510D /* PortScanner */ = {
+			isa = PBXGroup;
+			children = (
+				A3B7E6D42007BB9C00BD510D /* PortScanner.m */,
+				A3B7E6D62007BBA600BD510D /* PortScanner.h */,
+				A3B7E6D92007BCC600BD510D /* PortInfo.h */,
+			);
+			path = PortScanner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,7 +318,7 @@
 				TargetAttributes = {
 					279335C11D5D1CB9001DFE84 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = JSY962FCU8;
+						DevelopmentTeam = QH5MB58X2H;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -324,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				279335D51D5D1CB9001DFE84 /* LaunchScreen.storyboard in Resources */,
+				A3B7E6DA2008FFFD00BD510D /* services.list in Resources */,
 				279335D21D5D1CB9001DFE84 /* Assets.xcassets in Resources */,
 				273FF3891D61D5130077E0E0 /* oui.txt in Resources */,
 				27603A691E3AAE4C00F17DB5 /* data.plist in Resources */,
@@ -345,6 +369,8 @@
 				8224B5B81DCB7AAC00AE606F /* MACOperation.m in Sources */,
 				279336081D5D2BDC001DFE84 /* NetworkCalculator.m in Sources */,
 				2701AA341D62000B0058128B /* OUIParser.m in Sources */,
+				A3B7E6D52007BB9C00BD510D /* PortScanner.m in Sources */,
+				A3B7E6D12007B7D400BD510D /* PortScanOperation.m in Sources */,
 				27DBF0001E45FEF100685616 /* MacFinder.m in Sources */,
 				279335F81D5D2129001DFE84 /* MMLANScanner.m in Sources */,
 				279335FB1D5D2129001DFE84 /* SimplePing.m in Sources */,
@@ -481,11 +507,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JSY962FCU8;
+				DEVELOPMENT_TEAM = QH5MB58X2H;
 				INFOPLIST_FILE = "$(SRCROOT)/MMLanScanDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.miksoft.MMLanScanDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.MMLanScanDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -498,11 +524,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JSY962FCU8;
+				DEVELOPMENT_TEAM = QH5MB58X2H;
 				INFOPLIST_FILE = "$(SRCROOT)/MMLanScanDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.miksoft.MMLanScanDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.MMLanScanDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
