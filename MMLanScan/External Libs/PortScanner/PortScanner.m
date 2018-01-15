@@ -12,6 +12,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
+#include <sys/time.h>
 
 @implementation PortScanner {
     NSMutableDictionary *_services;
@@ -55,18 +56,20 @@
     return [[PortScanner alloc] initWithHostAddress:hostAddress];
 }
 
-//
-// TODO:
-//   1. Add non block socket with small connection timeout
-//
 static BOOL ConnectSocketPort(const char *addr, int protocol, int port) {
     int err = 0;
     int sockfd = -1;
+    fd_set fdset;
+    struct timeval tv;
+    int so_error = -1;
+    socklen_t len = sizeof(so_error);
     
     sockfd = socket(AF_INET, protocol, IPPROTO_IP);
     if (sockfd < 0) {
         return NO;
     }
+    
+    fcntl(sockfd, F_SETFL, O_NONBLOCK);
     
     struct sockaddr_in addr_dest;
     
@@ -75,12 +78,21 @@ static BOOL ConnectSocketPort(const char *addr, int protocol, int port) {
     addr_dest.sin_family = AF_INET;
     addr_dest.sin_addr.s_addr = inet_addr(addr);
     addr_dest.sin_port = htons(port);
-   
+    
     err = connect(sockfd, (const struct sockaddr *)&addr_dest, sizeof(struct sockaddr_in));
+
+    FD_ZERO(&fdset);
+    FD_SET(sockfd, &fdset);
+    tv.tv_sec = 0;
+    tv.tv_usec = 250 * 1000;
+    
+    if (select(sockfd + 1, NULL, &fdset, NULL, &tv) == 1) {
+        getsockopt(sockfd, SOL_SOCKET, SO_ERROR, &so_error, &len);
+    }
     
     close(sockfd);
     
-    return !err;
+    return !so_error;
 }
 
 //
