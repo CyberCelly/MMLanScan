@@ -7,13 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PortInfo.h"
 
 @interface PortScanner : NSObject
 
-+ (PortScanner *)scanPortsWithHostAddress:(NSString *)hostAddress;    // contains (struct sockaddr)
++ (PortScanner *_Nullable)scanPortsWithHostAddress:(NSString * _Nonnull)hostAddress
+    andPortHandler:(nullable void (^)(NSError  * _Nullable error, PortInfo * _Nonnull portInfo))handler;
 
 - (void)start;
+- (void)stop;
 
-@property (nonatomic, copy,   readonly ) NSString *hostAddress;
+@property (nonatomic, copy, readonly) NSString * _Nonnull hostAddress;
+@property (nonatomic, copy, readonly) void (^ _Nullable handler)(NSError * _Nullable error, PortInfo * _Nonnull portInfo);
 
 @end

@@ -16,16 +16,20 @@
 
 @implementation PortScanner {
     NSMutableDictionary *_services;
+    BOOL _continue;
 }
 
 @synthesize hostAddress = _hostAddress;
+@synthesize handler = _handler;
 
-- (id)initWithHostAddress:(NSString *) hostAddress {
+- (id)initWithHostAddress:(NSString *) hostAddress andPortHandler:(nullable void (^)(NSError  * _Nullable error, PortInfo *portInfo))handler {
     self = [super init];
     if (self != nil) {
         self->_hostAddress = [hostAddress copy];
+        self->_handler = handler;
         
         _services = [[NSMutableDictionary alloc] init];
+        _continue = YES;
         
         NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
         formatter.numberStyle = NSNumberFormatterDecimalStyle;
@@ -42,7 +46,7 @@
 
             NSString *protocol = [info objectAtIndex:0];
             NSString *port = [info objectAtIndex:1];
-            NSString *serviceName = [info objectAtIndex:2];
+            NSString *serviceName = [[[info objectAtIndex:2] componentsSeparatedByCharactersInSet:[NSCharacterSet newlineCharacterSet]] componentsJoinedByString:@""];
 
             if ([protocol compare:@"tcp"] == NSOrderedSame) {
                 [_services setObject:serviceName forKey:[formatter numberFromString:port]];
@@ -52,8 +56,9 @@
     return self;
 }
 
-+ (PortScanner *)scanPortsWithHostAddress:(NSString *)hostAddress {
-    return [[PortScanner alloc] initWithHostAddress:hostAddress];
++ (PortScanner *)scanPortsWithHostAddress:(NSString *)hostAddress
+                           andPortHandler:(nullable void (^)(NSError  * _Nullable error, PortInfo * _Nonnull portInfo))handler{
+    return [[PortScanner alloc] initWithHostAddress:hostAddress andPortHandler:handler];
 }
 
 static BOOL ConnectSocketPort(const char *addr, int protocol, int port) {
@@ -84,7 +89,7 @@ static BOOL ConnectSocketPort(const char *addr, int protocol, int port) {
     FD_ZERO(&fdset);
     FD_SET(sockfd, &fdset);
     tv.tv_sec = 0;
-    tv.tv_usec = 250 * 1000;
+    tv.tv_usec = 50 * 1000;
     
     if (select(sockfd + 1, NULL, &fdset, NULL, &tv) == 1) {
         getsockopt(sockfd, SOL_SOCKET, SO_ERROR, &so_error, &len);
@@ -95,24 +100,33 @@ static BOOL ConnectSocketPort(const char *addr, int protocol, int port) {
     return !so_error;
 }
 
-//
-// TODO:
-//   1. Add callback for scanned port
-//   2. Add ability to break port scan loop
-//
 - (void)start {
     assert(self.hostAddress != nil);
     
     NSArray *portOrder =  [[_services allKeys] sortedArrayUsingSelector:@selector(compare:)];
     NSEnumerator *servicesEnum = [portOrder objectEnumerator];
 
-    NSNumber *port;
+    NSNumber *portNumber;
+    PortInfo *portInfo = [PortInfo alloc];
 
-    while (port = [servicesEnum nextObject]) {
-        if (ConnectSocketPort([self.hostAddress UTF8String], SOCK_STREAM, [port intValue])) {
-            NSLog(@"%@", [_services objectForKey:port]);
+    while ((portNumber = [servicesEnum nextObject]) && _continue) {
+        portInfo.portNumber = portNumber;
+        portInfo.serviceName = [_services objectForKey:portNumber];
+        portInfo.protocol = ProtoTCP;
+        portInfo.isOpen = NO;
+        
+        if (ConnectSocketPort([self.hostAddress UTF8String], SOCK_STREAM, [portNumber intValue])) {
+            portInfo.isOpen = YES;
+        }
+
+        if (_handler) {
+            _handler(nil, portInfo);
         }
     }
+}
+
+- (void)stop {
+    _continue = NO;
 }
 
 @end

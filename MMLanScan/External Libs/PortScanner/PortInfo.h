@@ -13,14 +13,16 @@ typedef enum _TransportProtocol {
     ProtoUDP = 0x0002
 } TransportProtocol;
 
-@interface StateObject : NSObject {
+@interface PortInfo : NSObject {
     NSNumber *portNumber;
-    TransportProtocol  protocol;
     NSString *serviceName;
+    TransportProtocol  protocol;
+    BOOL isOpen;
 }
 
 @property (retain) NSNumber *portNumber;
-@property (assign) TransportProtocol protocol;
 @property (retain) NSString *serviceName;
+@property (assign) TransportProtocol protocol;
+@property (assign) BOOL isOpen;
 
 @end
