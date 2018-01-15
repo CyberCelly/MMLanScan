@@ -26,9 +26,9 @@
 		82194E9D1DCC7F49003F2BA1 /* MainPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82194E9C1DCC7F49003F2BA1 /* MainPresenter.m */; };
 		8224B5B81DCB7AAC00AE606F /* MACOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8224B5B51DCB7AAC00AE606F /* MACOperation.m */; };
 		8224B5B91DCB7AAC00AE606F /* PingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8224B5B71DCB7AAC00AE606F /* PingOperation.m */; };
-		A3B7E6D12007B7D400BD510D /* PortScanOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B7E6D02007B7D400BD510D /* PortScanOperation.m */; };
-		A3B7E6D52007BB9C00BD510D /* PortScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B7E6D42007BB9C00BD510D /* PortScanner.m */; };
 		A3B7E6DA2008FFFD00BD510D /* services.list in Resources */ = {isa = PBXBuildFile; fileRef = A3B7E6CE2007B77200BD510D /* services.list */; };
+		A3B7E6DE200CAEF100BD510D /* PortScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B7E6DB200CAEF100BD510D /* PortScanner.m */; };
+		A3B7E6E1200CAF0800BD510D /* PortScanOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B7E6E0200CAF0800BD510D /* PortScanOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,11 +70,11 @@
 		8224B5B61DCB7AAC00AE606F /* PingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PingOperation.h; path = ../../MMLanScan/Misc/PingOperation.h; sourceTree = "<group>"; };
 		8224B5B71DCB7AAC00AE606F /* PingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PingOperation.m; path = ../../MMLanScan/Misc/PingOperation.m; sourceTree = "<group>"; };
 		A3B7E6CE2007B77200BD510D /* services.list */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = services.list; sourceTree = "<group>"; };
-		A3B7E6D02007B7D400BD510D /* PortScanOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortScanOperation.m; sourceTree = "<group>"; };
-		A3B7E6D22007B7E900BD510D /* PortScanOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortScanOperation.h; sourceTree = "<group>"; };
-		A3B7E6D42007BB9C00BD510D /* PortScanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortScanner.m; sourceTree = "<group>"; };
-		A3B7E6D62007BBA600BD510D /* PortScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortScanner.h; sourceTree = "<group>"; };
-		A3B7E6D92007BCC600BD510D /* PortInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortInfo.h; sourceTree = "<group>"; };
+		A3B7E6DB200CAEF100BD510D /* PortScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PortScanner.m; path = "../../../MMLanScan/External Libs/PortScanner/PortScanner.m"; sourceTree = "<group>"; };
+		A3B7E6DC200CAEF100BD510D /* PortInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PortInfo.h; path = "../../../MMLanScan/External Libs/PortScanner/PortInfo.h"; sourceTree = "<group>"; };
+		A3B7E6DD200CAEF100BD510D /* PortScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PortScanner.h; path = "../../../MMLanScan/External Libs/PortScanner/PortScanner.h"; sourceTree = "<group>"; };
+		A3B7E6DF200CAF0800BD510D /* PortScanOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PortScanOperation.h; path = ../../MMLanScan/Misc/PortScanOperation.h; sourceTree = "<group>"; };
+		A3B7E6E0200CAF0800BD510D /* PortScanOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PortScanOperation.m; path = ../../MMLanScan/Misc/PortScanOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,12 +233,12 @@
 		27F479D41DCBF19D00672012 /* Operations */ = {
 			isa = PBXGroup;
 			children = (
+				A3B7E6DF200CAF0800BD510D /* PortScanOperation.h */,
+				A3B7E6E0200CAF0800BD510D /* PortScanOperation.m */,
 				8224B5B41DCB7AAC00AE606F /* MACOperation.h */,
 				8224B5B51DCB7AAC00AE606F /* MACOperation.m */,
 				8224B5B61DCB7AAC00AE606F /* PingOperation.h */,
 				8224B5B71DCB7AAC00AE606F /* PingOperation.m */,
-				A3B7E6D02007B7D400BD510D /* PortScanOperation.m */,
-				A3B7E6D22007B7E900BD510D /* PortScanOperation.h */,
 			);
 			name = Operations;
 			sourceTree = "<group>";
@@ -280,9 +280,9 @@
 		A3B7E6D32007BB7800BD510D /* PortScanner */ = {
 			isa = PBXGroup;
 			children = (
-				A3B7E6D42007BB9C00BD510D /* PortScanner.m */,
-				A3B7E6D62007BBA600BD510D /* PortScanner.h */,
-				A3B7E6D92007BCC600BD510D /* PortInfo.h */,
+				A3B7E6DC200CAEF100BD510D /* PortInfo.h */,
+				A3B7E6DD200CAEF100BD510D /* PortScanner.h */,
+				A3B7E6DB200CAEF100BD510D /* PortScanner.m */,
 			);
 			path = PortScanner;
 			sourceTree = "<group>";
@@ -364,14 +364,14 @@
 			files = (
 				279335DE1D5D1CE5001DFE84 /* MainVC.m in Sources */,
 				279335CA1D5D1CB9001DFE84 /* AppDelegate.m in Sources */,
+				A3B7E6DE200CAEF100BD510D /* PortScanner.m in Sources */,
 				82194E9D1DCC7F49003F2BA1 /* MainPresenter.m in Sources */,
 				27F0DFCF1F105E1B0043C777 /* MMDevice.m in Sources */,
 				8224B5B81DCB7AAC00AE606F /* MACOperation.m in Sources */,
 				279336081D5D2BDC001DFE84 /* NetworkCalculator.m in Sources */,
 				2701AA341D62000B0058128B /* OUIParser.m in Sources */,
-				A3B7E6D52007BB9C00BD510D /* PortScanner.m in Sources */,
-				A3B7E6D12007B7D400BD510D /* PortScanOperation.m in Sources */,
 				27DBF0001E45FEF100685616 /* MacFinder.m in Sources */,
+				A3B7E6E1200CAF0800BD510D /* PortScanOperation.m in Sources */,
 				279335F81D5D2129001DFE84 /* MMLANScanner.m in Sources */,
 				279335FB1D5D2129001DFE84 /* SimplePing.m in Sources */,
 				279335C71D5D1CB9001DFE84 /* main.m in Sources */,
