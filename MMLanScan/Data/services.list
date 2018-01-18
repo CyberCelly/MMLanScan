@@ -1,2295 +1,1476 @@
-tcp,1,tcpmux
-udp,1,tcpmux
-tcp,2,compressnet
-udp,2,compressnet
-tcp,3,compressnet
-udp,3,compressnet
-tcp,5,rje
-udp,5,rje
-tcp,7,echo
-udp,7,echo
-tcp,9,discard
-udp,9,discard
-tcp,11,systat
-udp,11,systat
-tcp,13,daytime
-udp,13,daytime
-tcp,15,netstat
-tcp,17,qotd
-udp,17,qotd
-tcp,18,msp
-udp,18,msp
-tcp,19,chargen
-udp,19,chargen
-tcp,20,ftp-data
-udp,20,ftp-data
-tcp,21,ftp
-udp,21,ftp
-tcp,22,ssh
-udp,22,ssh
-tcp,23,telnet
-udp,23,telnet
-tcp,24,priv-mail
-udp,24,priv-mail
-tcp,25,smtp
-udp,25,smtp
-tcp,27,nsw-fe
-udp,27,nsw-fe
-tcp,29,msg-icp
-udp,29,msg-icp
-tcp,31,msg-auth
-udp,31,msg-auth
-tcp,33,dsp
-udp,33,dsp
-tcp,35,priv-print
-udp,35,priv-print
-tcp,37,time
-udp,37,time
-tcp,38,rap
-udp,38,rap
-tcp,39,rlp
-udp,39,rlp
-tcp,41,graphics
-udp,41,graphics
-tcp,42,nameserver
-udp,42,nameserver
-tcp,43,whois
-udp,43,whois
-tcp,44,mpm-flags
-udp,44,mpm-flags
-tcp,45,mpm
-udp,45,mpm
-tcp,46,mpm-snd
-udp,46,mpm-snd
-tcp,47,ni-ftp
-udp,47,ni-ftp
-tcp,48,auditd
-udp,48,auditd
-tcp,49,tacacs
-udp,49,tacacs
-tcp,50,re-mail-ck
-udp,50,re-mail-ck
-tcp,51,la-maint
-udp,51,la-maint
-tcp,52,xns-time
-udp,52,xns-time
-tcp,53,domain
-udp,53,domain
-tcp,54,xns-ch
-udp,54,xns-ch
-tcp,55,isi-gl
-udp,55,isi-gl
-tcp,56,xns-auth
-udp,56,xns-auth
-tcp,57,priv-term
-udp,57,priv-term
-tcp,58,xns-mail
-udp,58,xns-mail
-tcp,59,priv-file
-udp,59,priv-file
-tcp,61,ni-mail
-udp,61,ni-mail
-tcp,62,acas
-udp,62,acas
-tcp,63,via-ftp
-udp,63,via-ftp
-tcp,64,covia
-udp,64,covia
-tcp,65,tacacs-ds
-udp,65,tacacs-ds
-tcp,66,sql*net
-udp,66,sql*net
-tcp,67,dhcps
-udp,67,dhcps
-tcp,68,dhcpc
-udp,68,dhcpc
-tcp,69,tftp
-udp,69,tftp
-tcp,70,gopher
-udp,70,gopher
-tcp,71,netrjs-1
-udp,71,netrjs-1
-tcp,72,netrjs-2
-udp,72,netrjs-2
-tcp,73,netrjs-3
-udp,73,netrjs-3
-tcp,74,netrjs-4
-udp,74,netrjs-4
-tcp,75,priv-dial
-udp,75,priv-dial
-tcp,76,deos
-udp,76,deos
-tcp,77,priv-rje
-udp,77,priv-rje
-tcp,78,vettcp
-udp,78,vettcp
-tcp,79,finger
-udp,79,finger
-tcp,80,http
-udp,80,http
-tcp,81,hosts2-ns
-udp,81,hosts2-ns
-tcp,82,xfer
-udp,82,xfer
-tcp,83,mit-ml-dev
-udp,83,mit-ml-dev
-tcp,84,ctf
-udp,84,ctf
-tcp,85,mit-ml-dev
-udp,85,mit-ml-dev
-tcp,86,mfcobol
-udp,86,mfcobol
-tcp,87,priv-term-l
-tcp,88,kerberos-sec
-udp,88,kerberos-sec
-tcp,89,su-mit-tg
-udp,89,su-mit-tg
-tcp,90,dnsix
-udp,90,dnsix
-tcp,91,mit-dov
-udp,91,mit-dov
-tcp,92,npp
-udp,92,npp
-tcp,93,dcp
-udp,93,dcp
-tcp,94,objcall
-udp,94,objcall
-tcp,95,supdup
-udp,95,supdup
-tcp,96,dixie
-udp,96,dixie
-tcp,97,swift-rvf
-udp,97,swift-rvf
-tcp,98,linuxconf
-udp,98,tacnews
-tcp,99,metagram
-udp,99,metagram
-tcp,100,newacct
-tcp,101,hostname
-udp,101,hostname
-tcp,102,iso-tsap
-udp,102,iso-tsap
-tcp,103,gppitnp
-udp,103,gppitnp
-tcp,104,acr-nema
-udp,104,acr-nema
-tcp,105,csnet-ns
-udp,105,csnet-ns
-tcp,106,pop3pw
-udp,106,3com-tsmux
-tcp,107,rtelnet
-udp,107,rtelnet
-tcp,108,snagas
-udp,108,snagas
-tcp,109,pop2
-udp,109,pop2
-tcp,110,pop3
-udp,110,pop3
-tcp,111,rpcbind
-udp,111,rpcbind
-tcp,112,mcidas
-udp,112,mcidas
-tcp,113,auth
-udp,113,auth
-tcp,114,audionews
-udp,114,audionews
-tcp,115,sftp
-udp,115,sftp
-tcp,116,ansanotify
-udp,116,ansanotify
-tcp,117,uucp-path
-udp,117,uucp-path
-tcp,118,sqlserv
-udp,118,sqlserv
-tcp,119,nntp
-udp,119,nntp
-tcp,120,cfdptkt
-udp,120,cfdptkt
-tcp,121,erpc
-udp,121,erpc
-tcp,122,smakynet
-udp,122,smakynet
-tcp,123,ntp
-udp,123,ntp
-tcp,124,ansatrader
-udp,124,ansatrader
-tcp,125,locus-map
-udp,125,locus-map
-tcp,126,unitary
-udp,126,unitary
-tcp,127,locus-con
-udp,127,locus-con
-tcp,128,gss-xlicen
-udp,128,gss-xlicen
-tcp,129,pwdgen
-udp,129,pwdgen
-tcp,130,cisco-fna
-udp,130,cisco-fna
-tcp,131,cisco-tna
-udp,131,cisco-tna
-tcp,132,cisco-sys
-udp,132,cisco-sys
-tcp,133,statsrv
-udp,133,statsrv
-tcp,134,ingres-net
-udp,134,ingres-net
-tcp,135,msrpc
-udp,135,msrpc
-tcp,136,profile
-udp,136,profile
-tcp,137,netbios-ns
-udp,137,netbios-ns
-tcp,138,netbios-dgm
-udp,138,netbios-dgm
-tcp,139,netbios-ssn
-udp,139,netbios-ssn
-tcp,140,emfis-data
-udp,140,emfis-data
-tcp,141,emfis-cntl
-udp,141,emfis-cntl
-tcp,142,bl-idm
-udp,142,bl-idm
-tcp,143,imap
-udp,143,imap
-tcp,144,news
-udp,144,news
-tcp,145,uaac
-udp,145,uaac
-tcp,146,iso-tp0
-udp,146,iso-tp0
-tcp,147,iso-ip
-udp,147,iso-ip
-tcp,148,cronus
-udp,148,cronus
-tcp,149,aed-512
-udp,149,aed-512
-tcp,150,sql-net
-udp,150,sql-net
-tcp,151,hems
-udp,151,hems
-tcp,152,bftp
-udp,152,bftp
-tcp,153,sgmp
-udp,153,sgmp
-tcp,154,netsc-prod
-udp,154,netsc-prod
-tcp,155,netsc-dev
-udp,155,netsc-dev
-tcp,156,sqlsrv
-udp,156,sqlsrv
-tcp,157,knet-cmp
-udp,157,knet-cmp
-tcp,158,pcmail-srv
-udp,158,pcmail-srv
-tcp,159,nss-routing
-udp,159,nss-routing
-tcp,160,sgmp-traps
-udp,160,sgmp-traps
-tcp,161,snmp
-udp,161,snmp
-tcp,162,snmptrap
-udp,162,snmptrap
-tcp,163,cmip-man
-udp,163,cmip-man
-tcp,164,cmip-agent
-udp,164,smip-agent
-tcp,165,xns-courier
-udp,165,xns-courier
-tcp,166,s-net
-udp,166,s-net
-tcp,167,namp
-udp,167,namp
-tcp,168,rsvd
-udp,168,rsvd
-tcp,169,send
-udp,169,send
-tcp,170,print-srv
-udp,170,print-srv
-tcp,171,multiplex
-udp,171,multiplex
-tcp,172,cl-1
-udp,172,cl-1
-tcp,173,xyplex-mux
-udp,173,xyplex-mux
-tcp,174,mailq
-udp,174,mailq
-tcp,175,vmnet
-udp,175,vmnet
-tcp,176,genrad-mux
-udp,176,genrad-mux
-tcp,177,xdmcp
-udp,177,xdmcp
-tcp,178,nextstep
-udp,178,nextstep
-tcp,179,bgp
-udp,179,bgp
-tcp,180,ris
-udp,180,ris
-tcp,181,unify
-udp,181,unify
-tcp,182,audit
-udp,182,audit
-tcp,183,ocbinder
-udp,183,ocbinder
-tcp,184,ocserver
-udp,184,ocserver
-tcp,185,remote-kis
-udp,185,remote-kis
-tcp,186,kis
-udp,186,kis
-tcp,187,aci
-udp,187,aci
-tcp,188,mumps
-udp,188,mumps
-tcp,189,qft
-udp,189,qft
-tcp,190,gacp
-udp,190,cacp
-tcp,191,prospero
-udp,191,prospero
-tcp,192,osu-nms
-udp,192,osu-nms
-tcp,193,srmp
-udp,193,srmp
-tcp,194,irc
-udp,194,irc
-tcp,195,dn6-nlm-aud
-udp,195,dn6-nlm-aud
-tcp,196,dn6-smm-red
-udp,196,dn6-smm-red
-tcp,197,dls
-udp,197,dls
-tcp,198,dls-mon
-udp,198,dls-mon
-tcp,199,smux
-udp,199,smux
-tcp,200,src
-udp,200,src
-tcp,201,at-rtmp
-udp,201,at-rtmp
-tcp,202,at-nbp
-udp,202,at-nbp
-tcp,203,at-3
-udp,203,at-3
-tcp,204,at-echo
-udp,204,at-echo
-tcp,205,at-5
-udp,205,at-5
-tcp,206,at-zis
-udp,206,at-zis
-tcp,207,at-7
-udp,207,at-7
-tcp,208,at-8
-udp,208,at-8
-tcp,209,tam
-udp,209,tam
-tcp,210,z39.50
-udp,210,z39.50
-tcp,211,914c-g
-udp,211,914c-g
-tcp,212,anet
-udp,212,anet
-tcp,213,ipx
-udp,213,ipx
-tcp,214,vmpwscs
-udp,214,vmpwscs
-tcp,215,softpc
-udp,215,softpc
-tcp,216,atls
-udp,216,atls
-tcp,217,dbase
-udp,217,dbase
-tcp,218,mpp
-udp,218,mpp
-tcp,219,uarps
-udp,219,uarps
-tcp,220,imap3
-udp,220,imap3
-tcp,221,fln-spx
-udp,221,fln-spx
-tcp,222,rsh-spx
-udp,222,rsh-spx
-tcp,223,cdc
-udp,223,cdc
-tcp,242,direct
-udp,242,direct
-tcp,243,sur-meas
-udp,243,sur-meas
-tcp,244,dayna
-udp,244,dayna
-tcp,245,link
-udp,245,link
-tcp,246,dsp3270
-udp,246,dsp3270
-tcp,247,subntbcst_tftp
-udp,247,subntbcst_tftp
-tcp,248,bhfhs
-udp,248,bhfhs
-tcp,256,fw1-secureremote
-udp,256,rap
-tcp,257,fw1-mc-fwmodule
-udp,257,set
-tcp,258,fw1-mc-gui
-udp,258,yak-chat
-tcp,259,esro-gen
-udp,259,firewall1-rdp
-tcp,260,openport
-udp,260,openport
-tcp,261,nsiiops
-udp,261,nsiiops
-tcp,262,arcisdms
-udp,262,arcisdms
-tcp,263,hdap
-udp,263,hdap
-tcp,264,bgmp
-udp,264,fw1-or-bgmp
-tcp,265,maybe-fw1
+tcp,1,TCP Port Service Multiplexer (TCPMUX) Historic Both TCP and UDP have been assigned to TCPMUX by IANA but by design only TCP is specified
+tcp,5,Remote job entry
+udp,5,Remote job entry
+tcp,7,Echo Protocol
+udp,7,Echo Protocol
+tcp,9,Discard Protocol | Wake-on-LAN
+udp,9,Discard Protocol | Wake-on-LAN
+tcp,11,Active Users (systat service)
+udp,11,Active Users (systat service)
+tcp,13,Daytime Protocol
+udp,13,Daytime Protocol
+tcp,15,Previously netstat service
+udp,15,Previously netstat service
+tcp,17,Quote of the Day (QOTD)
+udp,17,Quote of the Day (QOTD)
+tcp,18,Message Send Protocol
+udp,18,Message Send Protocol
+tcp,19,Character Generator Protocol (CHARGEN)
+udp,19,Character Generator Protocol (CHARGEN)
+tcp,20,File Transfer Protocol (FTP) data transfer
+tcp,21,File Transfer Protocol (FTP) control (command)
+tcp,22,Secure Shell (SSH) secure logins file transfers (scp sftp) and port forwarding
+udp,22,Secure Shell (SSH) secure logins file transfers (scp sftp) and port forwarding
+tcp,23,Telnet protocol-unencrypted text communications
+tcp,25,Simple Mail Transfer Protocol (SMTP) used for email routing between mail servers
+tcp,37,Time Protocol
+udp,37,Time Protocol
+tcp,38,Route Access Protocol (RAP)
+udp,38,Route Access Protocol (RAP)
+tcp,39,Resource Location Protocol (RLP)-used for determining the location of higher level services from hosts on a network
+udp,39,Resource Location Protocol (RLP)-used for determining the location of higher level services from hosts on a network
+tcp,42,Host Name Server Protocol
+udp,42,Host Name Server Protocol
+tcp,43,WHOIS protocol
+udp,43,WHOIS protocol
+tcp,49,TACACS+ Login Host protocol
+udp,49,TACACS+ Login Host protocol
+tcp,50,Remote Mail Checking Protocol
+udp,50,Remote Mail Checking Protocol
+tcp,51,Reserved | Previously Interface Message Processor logical address management
+udp,51,Reserved | Previously Interface Message Processor logical address management
+tcp,52,Xerox Network Systems (XNS) Time Protocol
+udp,52,Xerox Network Systems (XNS) Time Protocol
+tcp,53,Domain Name System (DNS)
+udp,53,Domain Name System (DNS)
+tcp,54,Xerox Network Systems (XNS) clearinghouse
+udp,54,Xerox Network Systems (XNS) clearinghouse
+tcp,56,Xerox Network Systems (XNS) authentication
+udp,56,Xerox Network Systems (XNS) authentication
+tcp,57,Any private terminal access
+udp,57,Any private terminal access
+tcp,58,Xerox Network Systems (XNS) Mail
+udp,58,Xerox Network Systems (XNS) Mail
+tcp,67,Bootstrap Protocol (BOOTP) server; also used by Dynamic Host Configuration Protocol (DHCP)
+udp,67,Bootstrap Protocol (BOOTP) server; also used by Dynamic Host Configuration Protocol (DHCP)
+tcp,68,Bootstrap Protocol (BOOTP) client; also used by Dynamic Host Configuration Protocol (DHCP)
+udp,68,Bootstrap Protocol (BOOTP) client; also used by Dynamic Host Configuration Protocol (DHCP)
+tcp,69,Trivial File Transfer Protocol (TFTP)
+udp,69,Trivial File Transfer Protocol (TFTP)
+tcp,70,Gopher protocol
+udp,70,Gopher protocol
+tcp,75,Any private dial out service
+udp,75,Any private dial out service
+tcp,77,Any private Remote job entry
+udp,77,Any private Remote job entry
+tcp,79,Finger protocol
+tcp,80,Hypertext Transfer Protocol (HTTP) | QUIC (from Chromium) for HTTP
+udp,80,Hypertext Transfer Protocol (HTTP) | QUIC (from Chromium) for HTTP
+tcp,81,TorPark onion routing
+udp,82,TorPark control
+tcp,87,Any private terminal link
+tcp,88,Kerberos authentication system
+tcp,90,sic? | PointCast (dotcom)
+udp,90,sic? | PointCast (dotcom)
+tcp,99,WIP message protocol
+tcp,101,NIC host name
+udp,101,NIC host name
+tcp,102,ISO Transport Service Access Point (TSAP) Class 0 protocol;
+udp,102,ISO Transport Service Access Point (TSAP) Class 0 protocol;
+tcp,104,Digital Imaging and Communications in Medicine (DICOM; also port 11112)
+udp,104,Digital Imaging and Communications in Medicine (DICOM; also port 11112)
+tcp,105,CCSO Nameserver
+udp,105,CCSO Nameserver
+tcp,107,Remote User Telnet Service (RTelnet)
+udp,107,Remote User Telnet Service (RTelnet)
+tcp,108,IBM Systems Network Architecture (SNA) gateway access server
+udp,108,IBM Systems Network Architecture (SNA) gateway access server
+tcp,109,Post Office Protocol version 2 (POP2)
+udp,109,Post Office Protocol version 2 (POP2)
+tcp,110,Post Office Protocol version 3 (POP3)
+tcp,111,Open Network Computing Remote Procedure Call (ONC RPC sometimes referred to as Sun RPC)
+udp,111,Open Network Computing Remote Procedure Call (ONC RPC sometimes referred to as Sun RPC)
+tcp,113,Ident authentication service/identification protocol used by IRC servers to identify users | identification protocol
+tcp,115,Simple File Transfer Protocol
+udp,115,Simple File Transfer Protocol
+tcp,117,UUCP Mapping Project (path service)
+udp,117,UUCP Mapping Project (path service)
+tcp,118,Structured Query Language (SQL) Services
+udp,118,Structured Query Language (SQL) Services
+tcp,119,Network News Transfer Protocol (NNTP) retrieval of newsgroup messages
+tcp,123,Network Time Protocol (NTP) used for time synchronization
+udp,123,Network Time Protocol (NTP) used for time synchronization
+tcp,126,Formerly Unisys Unitary Login renamed by Unisys to NXEdit Used by Unisys Programmer's Workbench for Clearpath MCP an IDE for Unisys MCP software development
+udp,126,Formerly Unisys Unitary Login renamed by Unisys to NXEdit Used by Unisys Programmer's Workbench for Clearpath MCP an IDE for Unisys MCP software development
+tcp,135,DCE endpoint resolution | Microsoft EPMAP (End Point Mapper) also known as DCE/RPC Locator service used to remotely manage services including DHCP server DNS server and WINS Also used by DCOM
+udp,135,DCE endpoint resolution | Microsoft EPMAP (End Point Mapper) also known as DCE/RPC Locator service used to remotely manage services including DHCP server DNS server and WINS Also used by DCOM
+tcp,137,NetBIOS Name Service used for name registration and resolution
+udp,137,NetBIOS Name Service used for name registration and resolution
+tcp,138,NetBIOS Datagram Service
+udp,138,NetBIOS Datagram Service
+tcp,139,NetBIOS Session Service
+tcp,143,Internet Message Access Protocol (IMAP) management of electronic mail messages on a server
+tcp,152,Background File Transfer Program (BFTP)
+udp,152,Background File Transfer Program (BFTP)
+tcp,153,Simple Gateway Monitoring Protocol (SGMP) a protocol for remote inspection and alteration of gateway management information
+udp,153,Simple Gateway Monitoring Protocol (SGMP) a protocol for remote inspection and alteration of gateway management information
+tcp,156,Structured Query Language (SQL) Service
+udp,156,Structured Query Language (SQL) Service
+tcp,158,Distributed Mail System Protocol (DMSP sometimes referred to as Pcmail)
+udp,158,Distributed Mail System Protocol (DMSP sometimes referred to as Pcmail)
+tcp,161,Simple Network Management Protocol (SNMP)
+udp,161,Simple Network Management Protocol (SNMP)
+tcp,162,Simple Network Management Protocol Trap (SNMPTRAP)
+udp,162,Simple Network Management Protocol Trap (SNMPTRAP)
+tcp,170,Print server
+udp,170,Print server
+tcp,177,X Display Manager Control Protocol (XDMCP) used for remote logins to an X Display Manager server
+udp,177,X Display Manager Control Protocol (XDMCP) used for remote logins to an X Display Manager server
+tcp,179,Border Gateway Protocol (BGP) used to exchange routing and reachability information among autonomous systems (AS) on the Internet
+udp,179,Border Gateway Protocol (BGP) used to exchange routing and reachability information among autonomous systems (AS) on the Internet
+tcp,194,Internet Relay Chat (IRC)
+udp,194,Internet Relay Chat (IRC)
+tcp,199,SNMP multiplexing protocol (SMUX)
+udp,199,SNMP multiplexing protocol (SMUX)
+tcp,201,AppleTalk Routing Maintenance
+udp,201,AppleTalk Routing Maintenance
+tcp,209,Quick Mail Transfer Protocol
+udp,209,Quick Mail Transfer Protocol
+tcp,210,ANSI Z3950
+udp,210,ANSI Z3950
+tcp,213,Internetwork Packet Exchange (IPX)
+udp,213,Internetwork Packet Exchange (IPX)
+tcp,218,Message posting protocol (MPP)
+udp,218,Message posting protocol (MPP)
+tcp,220,Internet Message Access Protocol (IMAP) version 3
+udp,220,Internet Message Access Protocol (IMAP) version 3
+tcp,259,Efficient Short Remote Operations (ESRO)
+udp,259,Efficient Short Remote Operations (ESRO)
+tcp,262,Arcisdms
+udp,262,Arcisdms
+tcp,264,Border Gateway Multicast Protocol (BGMP)
+udp,264,Border Gateway Multicast Protocol (BGMP)
 tcp,280,http-mgmt
 udp,280,http-mgmt
-tcp,281,personal-link
-udp,281,personal-link
-tcp,282,cableport-ax
-udp,282,cableport-ax
-tcp,308,novastorbakcup
-udp,308,novastorbakcup
-tcp,309,entrusttime
-udp,309,entrusttime
-tcp,310,bhmds
-udp,310,bhmds
-tcp,311,asip-webadmin
-udp,311,asip-webadmin
-tcp,312,vslmp
-udp,312,vslmp
-tcp,313,magenta-logic
-udp,313,magenta-logic
-tcp,314,opalis-robot
-udp,314,opalis-robot
-tcp,315,dpsi
-udp,315,dpsi
-tcp,316,decauth
-udp,316,decauth
-tcp,317,zannet
-udp,317,zannet
-tcp,321,pip
-udp,321,pip
-tcp,344,pdap
-udp,344,pdap
-tcp,345,pawserv
-udp,345,pawserv
-tcp,346,zserv
-udp,346,zserv
-tcp,347,fatserv
-udp,347,fatserv
-tcp,348,csi-sgwp
-udp,348,csi-sgwp
-tcp,349,mftp
-udp,349,mftp
-tcp,350,matip-type-a
-udp,350,matip-type-a
-tcp,351,matip-type-b
-udp,351,matip-type-b
-tcp,352,dtag-ste-sb
-udp,352,dtag-ste-sb
-tcp,353,ndsauth
-udp,353,ndsauth
-tcp,354,bh611
-udp,354,bh611
-tcp,355,datex-asn
-udp,355,datex-asn
-tcp,356,cloanto-net-1
-udp,356,cloanto-net-1
-tcp,357,bhevent
-udp,357,bhevent
-tcp,358,shrinkwrap
-udp,358,shrinkwrap
-tcp,359,tenebris_nts
-udp,359,tenebris_nts
-tcp,360,scoi2odialog
-udp,360,scoi2odialog
-tcp,361,semantix
-udp,361,semantix
-tcp,362,srssend
-udp,362,srssend
-tcp,363,rsvp_tunnel
-udp,363,rsvp_tunnel
-tcp,364,aurora-cmgr
-udp,364,aurora-cmgr
-tcp,365,dtk
-udp,365,dtk
-tcp,366,odmr
-udp,366,odmr
-tcp,367,mortgageware
-udp,367,mortgageware
-tcp,368,qbikgdp
-udp,368,qbikgdp
-tcp,369,rpc2portmap
-udp,369,rpc2portmap
-tcp,370,codaauth2
-udp,370,codaauth2
-tcp,371,clearcase
-udp,371,clearcase
-tcp,372,ulistserv
-udp,372,ulistserv
-tcp,373,legent-1
-udp,373,legent-1
-tcp,374,legent-2
-udp,374,legent-2
-tcp,375,hassle
-udp,375,hassle
-tcp,376,nip
-udp,376,nip
-tcp,377,tnETOS
-udp,377,tnETOS
-tcp,378,dsETOS
-udp,378,dsETOS
-tcp,379,is99c
-udp,379,is99c
-tcp,380,is99s
-udp,380,is99s
-tcp,381,hp-collector
-udp,381,hp-collector
-tcp,382,hp-managed-node
-udp,382,hp-managed-node
-tcp,383,hp-alarm-mgr
-udp,383,hp-alarm-mgr
-tcp,384,arns
-udp,384,arns
-tcp,385,ibm-app
-udp,385,ibm-app
-tcp,386,asa
-udp,386,asa
-tcp,387,aurp
-udp,387,aurp
-tcp,388,unidata-ldm
-udp,388,unidata-ldm
-tcp,389,ldap
-udp,389,ldap
-tcp,390,uis
-udp,390,uis
-tcp,391,synotics-relay
-udp,391,synotics-relay
-tcp,392,synotics-broker
-udp,392,synotics-broker
-tcp,393,dis
-udp,393,dis
-tcp,394,embl-ndt
-udp,394,embl-ndt
-tcp,395,netcp
-udp,395,netcp
-tcp,396,netware-ip
-udp,396,netware-ip
-tcp,397,mptn
-udp,397,mptn
-tcp,398,kryptolan
-udp,398,kryptolan
-tcp,399,iso-tsap-c2
-udp,399,iso-tsap-c2
-tcp,400,work-sol
-udp,400,work-sol
-tcp,401,ups
-udp,401,ups
-tcp,402,genie
-udp,402,genie
-tcp,403,decap
-udp,403,decap
-tcp,404,nced
-udp,404,nced
-tcp,405,ncld
-udp,405,ncld
-tcp,406,imsp
-udp,406,imsp
-tcp,407,timbuktu
-udp,407,timbuktu
-tcp,408,prm-sm
-udp,408,prm-sm
-tcp,409,prm-nm
-udp,409,prm-nm
-tcp,410,decladebug
-udp,410,decladebug
-tcp,411,rmt
-udp,411,rmt
-tcp,412,synoptics-trap
-udp,412,synoptics-trap
-tcp,413,smsp
-udp,413,smsp
-tcp,414,infoseek
-udp,414,infoseek
-tcp,415,bnet
-udp,415,bnet
-tcp,416,silverplatter
-udp,416,silverplatter
-tcp,417,onmux
-udp,417,onmux
-tcp,418,hyper-g
-udp,418,hyper-g
-tcp,419,ariel1
-udp,419,ariel1
-tcp,420,smpte
-udp,420,smpte
-tcp,421,ariel2
-udp,421,ariel2
-tcp,422,ariel3
-udp,422,ariel3
-tcp,423,opc-job-start
-udp,423,opc-job-start
-tcp,424,opc-job-track
-udp,424,opc-job-track
-tcp,425,icad-el
-udp,425,icad-el
-tcp,426,smartsdp
-udp,426,smartsdp
-tcp,427,svrloc
-udp,427,svrloc
-tcp,428,ocs_cmu
-udp,428,ocs_cmu
-tcp,429,ocs_amu
-udp,429,ocs_amu
-tcp,430,utmpsd
-udp,430,utmpsd
-tcp,431,utmpcd
-udp,431,utmpcd
-tcp,432,iasd
-udp,432,iasd
-tcp,433,nnsp
-udp,433,nnsp
-tcp,434,mobileip-agent
-udp,434,mobileip-agent
-tcp,435,mobilip-mn
-udp,435,mobilip-mn
-tcp,436,dna-cml
-udp,436,dna-cml
-tcp,437,comscm
-udp,437,comscm
-tcp,438,dsfgw
-udp,438,dsfgw
-tcp,439,dasp
-udp,439,dasp
-tcp,440,sgcp
-udp,440,sgcp
-tcp,441,decvms-sysmgt
-udp,441,decvms-sysmgt
-tcp,442,cvc_hostd
-udp,442,cvc_hostd
-tcp,443,https
-udp,443,https
-tcp,444,snpp
-udp,444,snpp
-tcp,445,microsoft-ds
-udp,445,microsoft-ds
-tcp,446,ddm-rdb
-udp,446,ddm-rdb
-tcp,447,ddm-dfm
-udp,447,ddm-dfm
-tcp,448,ddm-ssl
-udp,448,ddm-ssl
-tcp,449,as-servermap
-udp,449,as-servermap
-tcp,450,tserver
-udp,450,tserver
-tcp,451,sfs-smp-net
-udp,451,sfs-smp-net
-tcp,452,sfs-config
-udp,452,sfs-config
-tcp,453,creativeserver
-udp,453,creativeserver
-tcp,454,contentserver
-udp,454,contentserver
-tcp,455,creativepartnr
-udp,455,creativepartnr
-tcp,456,macon
-udp,456,macon
-tcp,457,scohelp
-udp,457,scohelp
-tcp,458,appleqtc
-udp,458,appleqtc
-tcp,459,ampr-rcmd
-udp,459,ampr-rcmd
-tcp,460,skronk
-udp,460,skronk
-tcp,461,datasurfsrv
-udp,461,datasurfsrv
-tcp,462,datasurfsrvsec
-udp,462,datasurfsrvsec
-tcp,463,alpes
-udp,463,alpes
-tcp,464,kpasswd5
-udp,464,kpasswd5
-tcp,465,smtps
-udp,465,smtps
-tcp,466,digital-vrc
-udp,466,digital-vrc
-tcp,467,mylex-mapd
-udp,467,mylex-mapd
-tcp,468,photuris
-udp,468,photuris
-tcp,469,rcp
-udp,469,rcp
-tcp,470,scx-proxy
-udp,470,scx-proxy
-tcp,471,mondex
-udp,471,mondex
-tcp,472,ljk-login
-udp,472,ljk-login
-tcp,473,hybrid-pop
-udp,473,hybrid-pop
-tcp,474,tn-tl-w1
-udp,474,tn-tl-w2
-tcp,475,tcpnethaspsrv
-udp,475,tcpnethaspsrv
-tcp,476,tn-tl-fd1
-udp,476,tn-tl-fd1
-tcp,477,ss7ns
-udp,477,ss7ns
-tcp,478,spsc
-udp,478,spsc
-tcp,479,iafserver
-udp,479,iafserver
-tcp,480,loadsrv
-udp,480,iafdbase
-tcp,481,dvs
-udp,481,ph
-tcp,482,bgs-nsi
-udp,482,xlog
-tcp,483,ulpnet
-udp,483,ulpnet
-tcp,484,integra-sme
-udp,484,integra-sme
-tcp,485,powerburst
-udp,485,powerburst
-tcp,486,sstats
-udp,486,avian
-tcp,487,saft
-udp,487,saft
-tcp,488,gss-http
-udp,488,gss-http
-tcp,489,nest-protocol
-udp,489,nest-protocol
-tcp,490,micom-pfs
-udp,490,micom-pfs
-tcp,491,go-login
-udp,491,go-login
-tcp,492,ticf-1
-udp,492,ticf-1
-tcp,493,ticf-2
-udp,493,ticf-2
-tcp,494,pov-ray
-udp,494,pov-ray
-tcp,495,intecourier
-udp,495,intecourier
-tcp,496,pim-rp-disc
-udp,496,pim-rp-disc
-tcp,497,retrospect
-udp,497,retrospect
-tcp,498,siam
-udp,498,siam
-tcp,499,iso-ill
-udp,499,iso-ill
-tcp,500,isakmp
-udp,500,isakmp
-tcp,501,stmf
-udp,501,stmf
-tcp,502,asa-appl-proto
-udp,502,asa-appl-proto
-tcp,503,intrinsa
-udp,503,intrinsa
-tcp,504,citadel
-udp,504,citadel
-tcp,505,mailbox-lm
-udp,505,mailbox-lm
-tcp,506,ohimsrv
-udp,506,ohimsrv
-tcp,507,crs
-udp,507,crs
-tcp,508,xvttp
-udp,508,xvttp
-tcp,509,snare
-udp,509,snare
-tcp,510,fcp
-udp,510,fcp
-tcp,511,passgo
-udp,511,passgo
-tcp,512,exec
-udp,512,biff
-tcp,513,login
-udp,513,who
-tcp,514,shell
-udp,514,syslog
-tcp,515,printer
-udp,515,printer
-tcp,516,videotex
-udp,516,videotex
-tcp,517,talk
-udp,517,talk
-tcp,518,ntalk
-udp,518,ntalk
-tcp,519,utime
-udp,519,utime
-tcp,520,efs
-udp,520,route
-tcp,521,ripng
-udp,521,ripng
-tcp,522,ulp
-udp,522,ulp
-tcp,523,ibm-db2
-udp,523,ibm-db2
-tcp,524,ncp
-udp,524,ncp
-tcp,525,timed
-udp,525,timed
-tcp,526,tempo
-udp,526,tempo
-tcp,527,stx
-udp,527,stx
-tcp,528,custix
-udp,528,custix
-tcp,529,irc
-udp,529,irc
-tcp,530,courier
-udp,530,courier
-tcp,531,conference
-udp,531,conference
+tcp,300,ThinLinc Web Access
+tcp,308,Novastor Online Backup
+tcp,311,Mac OS X Server Admin (officially AppleShare IP Web administration)
+tcp,318,PKIX Time Stamp Protocol (TSP)
+udp,318,PKIX Time Stamp Protocol (TSP)
+udp,319,Precision Time Protocol (PTP) event messages
+udp,320,Precision Time Protocol (PTP) general messages
+tcp,350,Mapping of Airline Traffic over Internet Protocol (MATIP) type A
+udp,350,Mapping of Airline Traffic over Internet Protocol (MATIP) type A
+tcp,351,MATIP type B
+udp,351,MATIP type B
+tcp,356,cloanto-net-1 (used by Cloanto Amiga Explorer and VMs)
+udp,356,cloanto-net-1 (used by Cloanto Amiga Explorer and VMs)
+tcp,366,On-Demand Mail Relay (ODMR)
+udp,366,On-Demand Mail Relay (ODMR)
+tcp,369,Rpc2portmap
+udp,369,Rpc2portmap
+tcp,370,codaauth2 Coda authentication server | codaauth2 Coda authentication server | securecast1 outgoing packets to NAI's SecureCast serversAs of 2000
+udp,370,codaauth2 Coda authentication server | codaauth2 Coda authentication server | securecast1 outgoing packets to NAI's SecureCast serversAs of 2000
+tcp,371,ClearCase albd
+udp,371,ClearCase albd
+tcp,383,HP data alarm manager
+udp,383,HP data alarm manager
+tcp,384,A Remote Network Server System
+udp,384,A Remote Network Server System
+tcp,387,AURP (AppleTalk Update-based Routing Protocol)
+udp,387,AURP (AppleTalk Update-based Routing Protocol)
+tcp,389,Lightweight Directory Access Protocol (LDAP)
+tcp,399,Digital Equipment Corporation DECnet (Phase V+) over TCP/IP
+udp,399,Digital Equipment Corporation DECnet (Phase V+) over TCP/IP
+tcp,401,Uninterruptible power supply (UPS)
+udp,401,Uninterruptible power supply (UPS)
+tcp,427,Service Location Protocol (SLP)
+udp,427,Service Location Protocol (SLP)
+tcp,433,NNSP part of Network News Transfer Protocol
+udp,433,NNSP part of Network News Transfer Protocol
+tcp,434,Mobile IP Agent (RFC 5944)
+udp,434,Mobile IP Agent (RFC 5944)
+tcp,443,Hypertext Transfer Protocol over TLS/SSL (HTTPS) | QUIC (from Chromium) for HTTPS
+udp,443,Hypertext Transfer Protocol over TLS/SSL (HTTPS) | QUIC (from Chromium) for HTTPS
+tcp,444,Simple Network Paging Protocol (SNPP) RFC 1568 | Well known Slitherio port
+udp,444,Simple Network Paging Protocol (SNPP) RFC 1568 | Well known Slitherio port
+tcp,445,Microsoft-DS Active Directory Windows shares | Microsoft-DS SMB file sharing
+udp,445,Microsoft-DS Active Directory Windows shares | Microsoft-DS SMB file sharing
+tcp,464,Kerberos Change/Set password
+udp,464,Kerberos Change/Set password
+tcp,465,URL Rendezvous Directory for SSM (Cisco protocol) | Authenticated SMTP over TLS/SSL (SMTPS)
+tcp,475,tcpnethaspsrv Aladdin Knowledge Systems Hasp services
+udp,475,tcpnethaspsrv Aladdin Knowledge Systems Hasp services
+tcp,491,GO-Global remote access and application publishing software
+tcp,497,Retrospect
+udp,497,Retrospect
+tcp,500,Internet Security Association and Key Management Protocol (ISAKMP) / Internet Key Exchange (IKE)
+udp,500,Internet Security Association and Key Management Protocol (ISAKMP) / Internet Key Exchange (IKE)
+tcp,502,Modbus Protocol
+udp,502,Modbus Protocol
+tcp,504,Citadel multiservice protocol for dedicated clients for the Citadel groupware system
+udp,504,Citadel multiservice protocol for dedicated clients for the Citadel groupware system
+tcp,510,FirstClass Protocol (FCP) used by FirstClass client/server groupware system
+udp,510,FirstClass Protocol (FCP) used by FirstClass client/server groupware system
+tcp,512,Rexec Remote Process Execution | comsat together with biff
+udp,512,Rexec Remote Process Execution | comsat together with biff
+tcp,513,rlogin | Who
+udp,513,rlogin | Who
+tcp,514,Remote Shell used to execute non-interactive commands on a remote system (Remote Shell rsh remsh) | Syslog used for system logging
+udp,514,Remote Shell used to execute non-interactive commands on a remote system (Remote Shell rsh remsh) | Syslog used for system logging
+tcp,515,Line Printer Daemon (LPD) print service
+udp,517,Talk
+udp,518,NTalk
+tcp,520,efs extended file name server | Routing Information Protocol (RIP)
+udp,520,efs extended file name server | Routing Information Protocol (RIP)
+udp,521,Routing Information Protocol Next Generation (RIPng)
+tcp,524,NetWare Core Protocol (NCP) is used for a variety things such as access to primary NetWare server resources Time Synchronization etc
+udp,524,NetWare Core Protocol (NCP) is used for a variety things such as access to primary NetWare server resources Time Synchronization etc
+udp,525,Timed Timeserver
+tcp,530,Remote procedure call (RPC)
+udp,530,Remote procedure call (RPC)
+tcp,531,AOL Instant Messenger
+udp,531,AOL Instant Messenger
 tcp,532,netnews
-udp,532,netnews
-tcp,533,netwall
-udp,533,netwall
-tcp,534,mm-admin
-udp,534,mm-admin
-tcp,535,iiop
-udp,535,iiop
-tcp,536,opalis-rdv
-udp,536,opalis-rdv
-tcp,537,nmsp
-udp,537,nmsp
-tcp,538,gdomap
-udp,538,gdomap
-tcp,539,apertus-ldp
-udp,539,apertus-ldp
-tcp,540,uucp
-udp,540,uucp
-tcp,541,uucp-rlogin
-udp,541,uucp-rlogin
-tcp,542,commerce
-udp,542,commerce
-tcp,543,klogin
-udp,543,klogin
-tcp,544,kshell
-udp,544,kshell
-tcp,545,ekshell
-udp,545,appleqtcsrvr
-tcp,546,dhcpv6-client
-udp,546,dhcpv6-client
-tcp,547,dhcpv6-server
-udp,547,dhcpv6-server
-tcp,548,afp
-udp,548,afp
-tcp,549,idfp
-udp,549,idfp
-tcp,550,new-rwho
-udp,550,new-rwho
-tcp,551,cybercash
-udp,551,cybercash
-tcp,552,deviceshare
-udp,552,deviceshare
-tcp,553,pirp
-udp,553,pirp
-tcp,554,rtsp
-udp,554,rtsp
-tcp,555,dsf
-udp,555,dsf
-tcp,556,remotefs
-udp,556,remotefs
-tcp,557,openvms-sysipc
-udp,557,openvms-sysipc
-tcp,558,sdnskmp
-udp,558,sdnskmp
-tcp,559,teedtap
-udp,559,teedtap
-tcp,560,rmonitor
-udp,560,rmonitor
-tcp,561,monitor
+udp,533,netwall For Emergency Broadcasts
+tcp,540,Unix-to-Unix Copy Protocol (UUCP)
+tcp,542,commerce (Commerce Applications)
+udp,542,commerce (Commerce Applications)
+tcp,543,klogin Kerberos login
+tcp,544,kshell Kerberos Remote shell
+tcp,546,DHCPv6 client
+udp,546,DHCPv6 client
+tcp,547,DHCPv6 server
+udp,547,DHCPv6 server
+tcp,548,Apple Filing Protocol (AFP) over TCP
+tcp,550,new-rwho new-who
+udp,550,new-rwho new-who
+tcp,554,Real Time Streaming Protocol (RTSP)
+udp,554,Real Time Streaming Protocol (RTSP)
+tcp,556,Remotefs RFS rfs_server
+udp,560,rmonitor Remote Monitor
 udp,561,monitor
-tcp,562,chshell
-udp,562,chshell
-tcp,563,snews
-udp,563,snews
-tcp,564,9pfs
-udp,564,9pfs
-tcp,565,whoami
-udp,565,whoami
-tcp,566,streettalk
-tcp,567,banyan-rpc
-udp,567,banyan-rpc
-tcp,568,ms-shuttle
-udp,568,ms-shuttle
-tcp,569,ms-rome
-udp,569,ms-rome
-tcp,570,meter
-udp,570,meter
-tcp,571,umeter
-udp,571,umeter
-tcp,572,sonar
-udp,572,sonar
-tcp,573,banyan-vip
-udp,573,banyan-vip
-tcp,574,ftp-agent
-udp,574,ftp-agent
-tcp,575,vemmi
-udp,575,vemmi
-tcp,576,ipcd
-udp,576,ipcd
-tcp,577,vnas
-udp,577,vnas
-tcp,578,ipdd
-udp,578,ipdd
-tcp,579,decbsrv
-udp,579,decbsrv
-tcp,580,sntp-heartbeat
-udp,580,sntp-heartbeat
-tcp,581,bdp
-udp,581,bdp
-tcp,582,scc-security
-udp,582,scc-security
-tcp,583,philips-vc
-udp,583,philips-vc
-tcp,584,keyserver
-udp,584,keyserver
-tcp,585,imap4-ssl
-udp,585,imap4-ssl
-tcp,586,password-chg
-udp,586,password-chg
-tcp,587,submission
-udp,587,submission
-tcp,588,cal
-udp,588,cal
-tcp,589,eyelink
-udp,589,eyelink
-tcp,590,tns-cml
-udp,590,tns-cml
-tcp,591,http-alt
-udp,591,http-alt
-tcp,592,eudora-set
-udp,592,eudora-set
-tcp,593,http-rpc-epmap
-udp,593,http-rpc-epmap
-tcp,594,tpip
-udp,594,tpip
-tcp,595,cab-protocol
-udp,595,cab-protocol
-tcp,596,smsd
-udp,596,smsd
-tcp,597,ptcnameservice
-udp,597,ptcnameservice
-tcp,598,sco-websrvrmg3
-udp,598,sco-websrvrmg3
-tcp,599,acp
-udp,599,acp
-tcp,600,ipcserver
-udp,600,ipcserver
-tcp,603,mnotes
-tcp,606,urm
-udp,606,urm
-tcp,607,nqs
-udp,607,nqs
-tcp,608,sift-uft
-udp,608,sift-uft
-tcp,609,npmp-trap
-udp,609,npmp-trap
-tcp,610,npmp-local
-udp,610,npmp-local
-tcp,611,npmp-gui
-udp,611,npmp-gui
-tcp,617,sco-dtmgr
-udp,617,sco-dtmgr
-tcp,625,apple-xsrvr-admin
-tcp,626,apple-imap-admin
-tcp,628,qmqp
-tcp,631,ipp
-tcp,634,ginad
-udp,634,ginad
-udp,635,mount
-tcp,636,ldapssl
-tcp,637,lanserver
-udp,637,lanserver
-udp,640,pcnfs
-udp,650,bwnfs
-tcp,660,mac-srvr-admin
-udp,660,mac-srvr-admin
-tcp,666,doom
-udp,666,doom
-tcp,674,acap
-tcp,691,resvc
-tcp,704,elcsd
-udp,704,elcsd
-tcp,706,silc
-tcp,709,entrustmanager
-udp,709,entrustmanager
-tcp,723,omfs
-tcp,729,netviewdm1
-udp,729,netviewdm1
-tcp,730,netviewdm2
-udp,730,netviewdm2
-tcp,731,netviewdm3
-udp,731,netviewdm3
-udp,737,sometimes-rpc2
-tcp,740,netcp
-udp,740,netcp
-tcp,741,netgw
-udp,741,netgw
-tcp,742,netrcs
-udp,742,netrcs
-tcp,744,flexlm
-udp,744,flexlm
-tcp,747,fujitsu-dev
-udp,747,fujitsu-dev
-tcp,748,ris-cm
-udp,748,ris-cm
-tcp,749,kerberos-adm
-udp,749,kerberos-adm
-tcp,750,kerberos
-udp,750,kerberos
-tcp,751,kerberos_master
-udp,751,kerberos_master
-tcp,752,qrh
-udp,752,qrh
-tcp,753,rrh
-udp,753,rrh
-tcp,754,krb_prop
-tcp,758,nlogin
-udp,758,nlogin
-tcp,759,con
-udp,759,con
-tcp,760,krbupdate
-udp,760,ns
-tcp,761,kpasswd
-udp,761,rxe
-tcp,762,quotad
-udp,762,quotad
-tcp,763,cycleserv
-udp,763,cycleserv
-tcp,764,omserv
-udp,764,omserv
-tcp,765,webster
-udp,765,webster
-tcp,767,phonebook
-udp,767,phonebook
-tcp,769,vid
-udp,769,vid
-tcp,770,cadlock
-udp,770,cadlock
-tcp,771,rtip
-udp,771,rtip
-tcp,772,cycleserv2
-udp,772,cycleserv2
-tcp,773,submit
-udp,773,notify
-tcp,774,rpasswd
-udp,774,acmaint_dbd
-tcp,775,entomb
-udp,775,acmaint_transd
-tcp,776,wpages
-udp,776,wpages
-tcp,780,wpgs
-udp,780,wpgs
-tcp,781,hp-collector
-udp,781,hp-collector
-tcp,782,hp-managed-node
-udp,782,hp-managed-node
-tcp,783,spamassassin
-783,hp-alarm-mgr,#
-783,hp-alarm-mgr,#
-tcp,786,concert
-udp,786,concert
-tcp,799,controlit
-tcp,800,mdbs_daemon
-udp,800,mdbs_daemon
-tcp,801,device
-udp,801,device
-tcp,808,ccproxy-http
-tcp,871,supfilesrv
-tcp,873,rsync
-tcp,888,accessbuilder
-udp,888,accessbuilder
-tcp,898,sun-manageconsole
-tcp,989,ftps-data
-tcp,901,samba-swat
-tcp,902,iss-realsecure
-tcp,903,iss-console-mgr
-tcp,950,oftep-rpc
-tcp,953,rndc
-tcp,975,securenetpro-sensor
-tcp,990,ftps
-tcp,992,telnets
-tcp,993,imaps
-tcp,994,ircs
-tcp,995,pop3s
-tcp,996,xtreelic
-udp,996,vsinet
-tcp,997,maitrd
-udp,997,maitrd
-tcp,998,busboy
-udp,998,puparp
-tcp,999,garcon
-udp,999,applix
-tcp,1000,cadlock
-udp,1000,ock
-tcp,1002,windows-icfw
-tcp,1008,ufsd
-udp,1008,ufsd
-udp,1012,sometimes-rpc1
-tcp,1023,netvenuechat
-tcp,1024,kdm
-tcp,1025,NFS-or-IIS
-udp,1025,blackjack
-tcp,1026,LSA-or-nterm
-tcp,1027,IIS
-udp,1028,ms-lsa
-tcp,1029,ms-lsa
-tcp,1030,iad1
-udp,1030,iad1
-tcp,1031,iad2
-udp,1031,iad2
-tcp,1032,iad3
-udp,1032,iad3
-tcp,1033,netinfo
-udp,1034,activesync-notify
-tcp,1040,netsaint
-tcp,1043,boinc
-udp,1043,boinc
-tcp,1050,java-or-OTGfileshare
-tcp,1058,nim
-udp,1058,nim
-tcp,1059,nimreg
-udp,1059,nimreg
-tcp,1067,instl_boots
-udp,1067,instl_boots
-tcp,1068,instl_bootc
-udp,1068,instl_bootc
-tcp,1076,sns_credit
-tcp,1080,socks
-udp,1080,socks
-tcp,1083,ansoft-lm-1
-udp,1083,ansoft-lm-1
-tcp,1084,ansoft-lm-2
-udp,1084,ansoft-lm-2
-tcp,1103,xaudio
-tcp,1109,kpop
-tcp,1110,nfsd-status
-udp,1110,nfsd-keepalive
-tcp,1112,msql
-tcp,1127,supfiledbg
-tcp,1139,cce3x
-tcp,1155,nfa
-udp,1155,nfa
-tcp,1158,lsnr
-udp,1167,phone
-tcp,1178,skkserv
-tcp,1212,lupa
-udp,1212,lupa
-tcp,1214,fasttrack
-udp,1214,fasttrack
-tcp,1220,quicktime
-tcp,1222,nerv
-udp,1222,nerv
-tcp,1234,hotline
-tcp,1241,nessus
-tcp,1248,hermes
-udp,1248,hermes
-tcp,1270,ssserver
-tcp,1337,waste
-tcp,1346,alta-ana-lm
-udp,1346,alta-ana-lm
-tcp,1347,bbn-mmc
-udp,1347,bbn-mmc
-tcp,1348,bbn-mmx
-udp,1348,bbn-mmx
-tcp,1349,sbook
-udp,1349,sbook
-tcp,1350,editbench
-udp,1350,editbench
-tcp,1351,equationbuilder
-udp,1351,equationbuilder
-tcp,1352,lotusnotes
-udp,1352,lotusnotes
-tcp,1353,relief
-udp,1353,relief
-tcp,1354,rightbrain
-udp,1354,rightbrain
-tcp,1355,intuitive-edge
-udp,1355,intuitive-edge
-tcp,1356,cuillamartin
-udp,1356,cuillamartin
-tcp,1357,pegboard
-udp,1357,pegboard
-tcp,1358,connlcli
-udp,1358,connlcli
-tcp,1359,ftsrv
-udp,1359,ftsrv
-tcp,1360,mimer
-udp,1360,mimer
-tcp,1361,linx
-udp,1361,linx
-tcp,1362,timeflies
-udp,1362,timeflies
-tcp,1363,ndm-requester
-udp,1363,ndm-requester
-tcp,1364,ndm-server
-udp,1364,ndm-server
-tcp,1365,adapt-sna
-udp,1365,adapt-sna
-tcp,1366,netware-csp
-udp,1366,netware-csp
-tcp,1367,dcs
-udp,1367,dcs
-tcp,1368,screencast
-udp,1368,screencast
-tcp,1369,gv-us
-udp,1369,gv-us
-tcp,1370,us-gv
-udp,1370,us-gv
-tcp,1371,fc-cli
-udp,1371,fc-cli
-tcp,1372,fc-ser
-udp,1372,fc-ser
-tcp,1373,chromagrafx
-udp,1373,chromagrafx
-tcp,1374,molly
-udp,1374,molly
-tcp,1375,bytex
-udp,1375,bytex
-tcp,1376,ibm-pps
-udp,1376,ibm-pps
-tcp,1377,cichlid
-udp,1377,cichlid
-tcp,1378,elan
-udp,1378,elan
-tcp,1379,dbreporter
-udp,1379,dbreporter
-tcp,1380,telesis-licman
-udp,1380,telesis-licman
-tcp,1381,apple-licman
-udp,1381,apple-licman
-tcp,1383,gwha
-udp,1383,gwha
-tcp,1384,os-licman
-udp,1384,os-licman
-tcp,1385,atex_elmd
-udp,1385,atex_elmd
-tcp,1386,checksum
-udp,1386,checksum
-tcp,1387,cadsi-lm
-udp,1387,cadsi-lm
-tcp,1388,objective-dbc
-udp,1388,objective-dbc
-tcp,1389,iclpv-dm
-udp,1389,iclpv-dm
-tcp,1390,iclpv-sc
-udp,1390,iclpv-sc
-tcp,1391,iclpv-sas
-udp,1391,iclpv-sas
-tcp,1392,iclpv-pm
-udp,1392,iclpv-pm
-tcp,1393,iclpv-nls
-udp,1393,iclpv-nls
-tcp,1394,iclpv-nlc
-udp,1394,iclpv-nlc
-tcp,1395,iclpv-wsm
-udp,1395,iclpv-wsm
-tcp,1396,dvl-activemail
-udp,1396,dvl-activemail
-tcp,1397,audio-activmail
-udp,1397,audio-activmail
-tcp,1398,video-activmail
-udp,1398,video-activmail
-tcp,1399,cadkey-licman
-udp,1399,cadkey-licman
-tcp,1400,cadkey-tablet
-udp,1400,cadkey-tablet
-tcp,1401,goldleaf-licman
-udp,1401,goldleaf-licman
-tcp,1402,prm-sm-np
-udp,1402,prm-sm-np
-tcp,1403,prm-nm-np
-udp,1403,prm-nm-np
-tcp,1404,igi-lm
-udp,1404,igi-lm
-tcp,1405,ibm-res
-udp,1405,ibm-res
-tcp,1406,netlabs-lm
-udp,1406,netlabs-lm
-tcp,1407,dbsa-lm
-udp,1407,dbsa-lm
-tcp,1408,sophia-lm
-udp,1408,sophia-lm
-tcp,1409,here-lm
-udp,1409,here-lm
-tcp,1410,hiq
-udp,1410,hiq
-tcp,1411,af
-udp,1411,af
-tcp,1412,innosys
-udp,1412,innosys
-tcp,1413,innosys-acl
-udp,1413,innosys-acl
-tcp,1414,ibm-mqseries
-udp,1414,ibm-mqseries
-tcp,1415,dbstar
-udp,1415,dbstar
-tcp,1416,novell-lu6.2
-udp,1416,novell-lu6.2
-tcp,1417,timbuktu-srv1
-udp,1417,timbuktu-srv1
-tcp,1418,timbuktu-srv2
-udp,1418,timbuktu-srv2
-tcp,1419,timbuktu-srv3
-udp,1419,timbuktu-srv3
-tcp,1420,timbuktu-srv4
-udp,1420,timbuktu-srv4
-tcp,1421,gandalf-lm
-udp,1421,gandalf-lm
-tcp,1422,autodesk-lm
-udp,1422,autodesk-lm
-tcp,1423,essbase
-udp,1423,essbase
-tcp,1424,hybrid
-udp,1424,hybrid
-tcp,1425,zion-lm
-udp,1425,zion-lm
-tcp,1426,sas-1
-udp,1426,sas-1
-tcp,1427,mloadd
-udp,1427,mloadd
-tcp,1428,informatik-lm
-udp,1428,informatik-lm
-tcp,1429,nms
-udp,1429,nms
-tcp,1430,tpdu
-udp,1430,tpdu
-tcp,1431,rgtp
-udp,1431,rgtp
-tcp,1432,blueberry-lm
-udp,1432,blueberry-lm
-tcp,1433,ms-sql-s
-udp,1433,ms-sql-s
-tcp,1434,ms-sql-m
-udp,1434,ms-sql-m
-tcp,1435,ibm-cics
-udp,1435,ibm-cics
-tcp,1436,sas-2
-udp,1436,sas-2
-tcp,1437,tabula
-udp,1437,tabula
-tcp,1438,eicon-server
-udp,1438,eicon-server
-tcp,1439,eicon-x25
-udp,1439,eicon-x25
-tcp,1440,eicon-slp
-udp,1440,eicon-slp
-tcp,1441,cadis-1
-udp,1441,cadis-1
-tcp,1442,cadis-2
-udp,1442,cadis-2
-tcp,1443,ies-lm
-udp,1443,ies-lm
-tcp,1444,marcam-lm
-udp,1444,marcam-lm
-tcp,1445,proxima-lm
-udp,1445,proxima-lm
-tcp,1446,ora-lm
-udp,1446,ora-lm
-tcp,1447,apri-lm
-udp,1447,apri-lm
-tcp,1448,oc-lm
-udp,1448,oc-lm
-tcp,1449,peport
-udp,1449,peport
-tcp,1450,dwf
-udp,1450,dwf
-tcp,1451,infoman
-udp,1451,infoman
-tcp,1452,gtegsc-lm
-udp,1452,gtegsc-lm
-tcp,1453,genie-lm
-udp,1453,genie-lm
-tcp,1454,interhdl_elmd
-udp,1454,interhdl_elmd
-tcp,1455,esl-lm
-udp,1455,esl-lm
-tcp,1456,dca
-udp,1456,dca
-tcp,1457,valisys-lm
-udp,1457,valisys-lm
-tcp,1458,nrcabq-lm
-udp,1458,nrcabq-lm
-tcp,1459,proshare1
-udp,1459,proshare1
-tcp,1460,proshare2
-udp,1460,proshare2
-tcp,1461,ibm_wrless_lan
-udp,1461,ibm_wrless_lan
-tcp,1462,world-lm
-udp,1462,world-lm
-tcp,1463,nucleus
-udp,1463,nucleus
-tcp,1464,msl_lmd
-udp,1464,msl_lmd
-tcp,1465,pipes
-udp,1465,pipes
-tcp,1466,oceansoft-lm
-udp,1466,oceansoft-lm
-tcp,1467,csdmbase
-udp,1467,csdmbase
-tcp,1468,csdm
-udp,1468,csdm
-tcp,1469,aal-lm
-udp,1469,aal-lm
-tcp,1470,uaiact
-udp,1470,uaiact
-tcp,1471,csdmbase
-udp,1471,csdmbase
-tcp,1472,csdm
-udp,1472,csdm
-tcp,1473,openmath
-udp,1473,openmath
-tcp,1474,telefinder
-udp,1474,telefinder
-tcp,1475,taligent-lm
-udp,1475,taligent-lm
-tcp,1476,clvm-cfg
-udp,1476,clvm-cfg
-tcp,1477,ms-sna-server
-udp,1477,ms-sna-server
-tcp,1478,ms-sna-base
-udp,1478,ms-sna-base
-tcp,1479,dberegister
-udp,1479,dberegister
-tcp,1480,pacerforum
-udp,1480,pacerforum
-tcp,1481,airs
-udp,1481,airs
-tcp,1482,miteksys-lm
-udp,1482,miteksys-lm
-tcp,1483,afs
-udp,1483,afs
-tcp,1484,confluent
-udp,1484,confluent
-tcp,1485,lansource
-udp,1485,lansource
-tcp,1486,nms_topo_serv
-udp,1486,nms_topo_serv
-tcp,1487,localinfosrvr
-udp,1487,localinfosrvr
-tcp,1488,docstor
-udp,1488,docstor
-tcp,1489,dmdocbroker
-udp,1489,dmdocbroker
-tcp,1490,insitu-conf
-udp,1490,insitu-conf
-tcp,1491,anynetgateway
-udp,1491,anynetgateway
-tcp,1492,stone-design-1
-udp,1492,stone-design-1
-tcp,1493,netmap_lm
-udp,1493,netmap_lm
-tcp,1494,citrix-ica
-udp,1494,citrix-ica
-tcp,1495,cvc
-udp,1495,cvc
-tcp,1496,liberty-lm
-udp,1496,liberty-lm
-tcp,1497,rfx-lm
-udp,1497,rfx-lm
-tcp,1498,watcom-sql
-udp,1498,watcom-sql
-tcp,1499,fhc
-udp,1499,fhc
-tcp,1500,vlsi-lm
-udp,1500,vlsi-lm
-tcp,1501,sas-3
-udp,1501,sas-3
-tcp,1502,shivadiscovery
-udp,1502,shivadiscovery
-tcp,1503,imtc-mcs
-udp,1503,imtc-mcs
-tcp,1504,evb-elm
-udp,1504,evb-elm
-tcp,1505,funkproxy
-udp,1505,funkproxy
-tcp,1506,utcd
-udp,1506,utcd
-tcp,1507,symplex
-udp,1507,symplex
-tcp,1508,diagmond
-udp,1508,diagmond
-tcp,1509,robcad-lm
-udp,1509,robcad-lm
-tcp,1510,mvx-lm
-udp,1510,mvx-lm
-tcp,1511,3l-l1
-udp,1511,3l-l1
-tcp,1512,wins
-udp,1512,wins
-tcp,1513,fujitsu-dtc
-udp,1513,fujitsu-dtc
-tcp,1514,fujitsu-dtcns
-udp,1514,fujitsu-dtcns
-tcp,1515,ifor-protocol
-udp,1515,ifor-protocol
-tcp,1516,vpad
-udp,1516,vpad
-tcp,1517,vpac
-udp,1517,vpac
-tcp,1518,vpvd
-udp,1518,vpvd
-tcp,1519,vpvc
-udp,1519,vpvc
-tcp,1520,atm-zip-office
-udp,1520,atm-zip-office
-tcp,1521,oracle
-udp,1521,ncube-lm
-tcp,1522,rna-lm
-udp,1522,rna-lm
-tcp,1523,cichild-lm
-udp,1523,cichild-lm
-tcp,1524,ingreslock
-udp,1524,ingreslock
-tcp,1525,orasrv
-udp,1525,oracle
-tcp,1526,pdap-np
-udp,1526,pdap-np
-tcp,1527,tlisrv
-udp,1527,tlisrv
-tcp,1528,mciautoreg
-udp,1528,mciautoreg
-tcp,1529,support
-udp,1529,coauthor
-tcp,1530,rap-service
-udp,1530,rap-service
-tcp,1531,rap-listen
-udp,1531,rap-listen
-tcp,1532,miroconnect
-udp,1532,miroconnect
-tcp,1533,virtual-places
-udp,1533,virtual-places
-tcp,1534,micromuse-lm
-udp,1534,micromuse-lm
-tcp,1535,ampr-info
-udp,1535,ampr-info
-tcp,1536,ampr-inter
-udp,1536,ampr-inter
-tcp,1537,sdsc-lm
-udp,1537,sdsc-lm
-tcp,1538,3ds-lm
-udp,1538,3ds-lm
-tcp,1539,intellistor-lm
-udp,1539,intellistor-lm
-tcp,1540,rds
-udp,1540,rds
-tcp,1541,rds2
-udp,1541,rds2
-tcp,1542,gridgen-elmd
-udp,1542,gridgen-elmd
-tcp,1543,simba-cs
-udp,1543,simba-cs
-tcp,1544,aspeclmd
-udp,1544,aspeclmd
-tcp,1545,vistium-share
-udp,1545,vistium-share
-tcp,1546,abbaccuray
-udp,1546,abbaccuray
-tcp,1547,laplink
-udp,1547,laplink
-tcp,1548,axon-lm
-udp,1548,axon-lm
-tcp,1549,shivahose
-udp,1549,shivasound
-tcp,1550,3m-image-lm
-udp,1550,3m-image-lm
-tcp,1551,hecmtl-db
-udp,1551,hecmtl-db
-tcp,1552,pciarray
-udp,1552,pciarray
-tcp,1600,issd
-udp,1600,issd
-udp,1645,radius
+tcp,563,NNTP over TLS/SSL (NNTPS)
+udp,563,NNTP over TLS/SSL (NNTPS)
+tcp,564,9P (Plan 9)
+tcp,585,Legacy use of Internet Message Access Protocol over TLS/SSL (IMAPS)
+tcp,587,email message submission (SMTP)
+tcp,591,FileMaker 60 (and later) Web Sharing (HTTP Alternate also see port 80)
+tcp,593,HTTP RPC Ep Map Remote procedure call over Hypertext Transfer Protocol often used by Distributed Component Object Model services and Microsoft Exchange Server
+udp,593,HTTP RPC Ep Map Remote procedure call over Hypertext Transfer Protocol often used by Distributed Component Object Model services and Microsoft Exchange Server
+tcp,601,Reliable Syslog Service - used for system logging
+tcp,604,TUNNEL profile a protocol for BEEP peers to form an application layer tunnel
+udp,623,ASF Remote Management and Control Protocol (ASF-RMCP) & IPMI Remote Management Protocol
+tcp,625,Open Directory Proxy (ODProxy)
+tcp,631,Internet Printing Protocol (IPP) | Common Unix Printing System (CUPS) administration console (extension to IPP)
+udp,631,Internet Printing Protocol (IPP) | Common Unix Printing System (CUPS) administration console (extension to IPP)
+tcp,635,RLZ DBase
+udp,635,RLZ DBase
+tcp,636,Lightweight Directory Access Protocol over TLS/SSL (LDAPS)
+udp,636,Lightweight Directory Access Protocol over TLS/SSL (LDAPS)
+tcp,639,MSDP Multicast Source Discovery Protocol
+udp,639,MSDP Multicast Source Discovery Protocol
+tcp,641,SupportSoft Nexus Remote Command (control/listening) a proxy gateway connecting remote control traffic
+udp,641,SupportSoft Nexus Remote Command (control/listening) a proxy gateway connecting remote control traffic
+tcp,643,SANity
+udp,643,SANity
+tcp,646,Label Distribution Protocol (LDP) a routing protocol used in MPLS networks
+udp,646,Label Distribution Protocol (LDP) a routing protocol used in MPLS networks
+tcp,647,DHCP Failover protocol
+tcp,648,Registry Registrar Protocol (RRP)
+tcp,651,IEEE-MMS
+udp,651,IEEE-MMS
+tcp,653,SupportSoft Nexus Remote Command (data) a proxy gateway connecting remote control traffic
+udp,653,SupportSoft Nexus Remote Command (data) a proxy gateway connecting remote control traffic
+tcp,654,Media Management System (MMS) Media Management Protocol (MMP)
+tcp,655,Tinc VPN daemon
+udp,655,Tinc VPN daemon
+tcp,657,IBM RMC (Remote monitoring and Control) protocol used by System p5 AIX Integrated Virtualization Manager (IVM) and Hardware Management Console to connect managed logical partitions (LPAR) to enable dynamic partition reconfiguration
+udp,657,IBM RMC (Remote monitoring and Control) protocol used by System p5 AIX Integrated Virtualization Manager (IVM) and Hardware Management Console to connect managed logical partitions (LPAR) to enable dynamic partition reconfiguration
+tcp,660,Mac OS X Server administration version 104 and earlier
+tcp,666,Doom first online first-person shooter | airserv-ng aircrack-ng's server for remote-controlling wireless devices
+udp,666,Doom first online first-person shooter | airserv-ng aircrack-ng's server for remote-controlling wireless devices
+tcp,674,Application Configuration Access Protocol (ACAP)
+tcp,688,REALM-RUSD (ApplianceWare Server Appliance Management Protocol)
+udp,688,REALM-RUSD (ApplianceWare Server Appliance Management Protocol)
+tcp,690,Velneo Application Transfer Protocol (VATP)
+udp,690,Velneo Application Transfer Protocol (VATP)
+tcp,691,MS Exchange Routing
+tcp,694,Linux-HA high-availability heartbeat
+udp,694,Linux-HA high-availability heartbeat
+tcp,695,IEEE Media Management System over SSL (IEEE-MMS-SSL)
+udp,698,Optimized Link State Routing (OLSR)
+tcp,700,Extensible Provisioning Protocol (EPP) a protocol for communication between domain name registries and registrars (RFC 5734)
+tcp,701,Link Management Protocol (LMP) a protocol that runs between a pair of nodes and is used to manage traffic engineering (TE) links
+tcp,702,IRIS (Internet Registry Information Service) over BEEP (Blocks Extensible Exchange Protocol) (RFC 3983)
+tcp,706,Secure Internet Live Conferencing (SILC)
+tcp,711,Cisco Tag Distribution Protocol-being replaced by the MPLS Label Distribution Protocol
+tcp,712,Topology Broadcast based on Reverse-Path Forwarding routing protocol (TBRPF; RFC 3684)
+tcp,749,Kerberos (protocol) administration
+udp,749,Kerberos (protocol) administration
+udp,750,kerberos-iv Kerberos version IV
+tcp,751,kerberos_master Kerberos authentication
+udp,751,kerberos_master Kerberos authentication
+udp,752,passwd_server Kerberos password (kpasswd) server
+tcp,753,Reverse Routing Header (RRH) | Reverse Routing Header (RRH) | userreg_server Kerberos userreg server
+udp,753,Reverse Routing Header (RRH) | Reverse Routing Header (RRH) | userreg_server Kerberos userreg server
+tcp,754,tell send | krb5_prop Kerberos v5 slave propagation | tell send
+udp,754,tell send | krb5_prop Kerberos v5 slave propagation | tell send
+tcp,760,krbupdate [kreg] Kerberos registration
+udp,760,krbupdate [kreg] Kerberos registration
+tcp,782,Conserver serial-console management server
+tcp,783,SpamAssassin spamd daemon
+tcp,800,mdbs-daemon
+udp,800,mdbs-daemon
+tcp,808,Microsoft NetTCP Port Sharing Service
+tcp,829,Certificate Management Protocol
+tcp,830,NETCONF over SSH
+udp,830,NETCONF over SSH
+tcp,831,NETCONF over BEEP
+udp,831,NETCONF over BEEP
+tcp,832,NETCONF for SOAP over HTTPS
+udp,832,NETCONF for SOAP over HTTPS
+tcp,833,NETCONF for SOAP over BEEP
+udp,833,NETCONF for SOAP over BEEP
+tcp,843,Adobe Flash
+tcp,847,DHCP Failover protocol
+tcp,848,Group Domain Of Interpretation (GDOI) protocol
+udp,848,Group Domain Of Interpretation (GDOI) protocol
+tcp,853,DNS over TLS (RFC 7858)
+udp,853,DNS over TLS (RFC 7858)
+tcp,860,iSCSI (RFC 3720)
+tcp,861,OWAMP control (RFC 4656)
+udp,861,OWAMP control (RFC 4656)
+tcp,862,TWAMP control (RFC 5357)
+udp,862,TWAMP control (RFC 5357)
+tcp,873,rsync file synchronization protocol
+tcp,888,cddbp CD DataBase (CDDB) protocol (CDDBP) | IBM Endpoint Manager Remote Control
+tcp,897,Brocade SMI-S RPC
+udp,897,Brocade SMI-S RPC
+tcp,898,Brocade SMI-S RPC SSL
+udp,898,Brocade SMI-S RPC SSL
+tcp,902,VMware ESXi
+udp,902,VMware ESXi
+tcp,903,VMware ESXi
+tcp,953,BIND remote name daemon control (RNDC)
+tcp,981,Remote HTTPS management for firewall devices running embedded Check Point VPN-1 software
+tcp,987,Microsoft Remote Web Workplace a feature of Windows Small Business Server
+tcp,989,FTPS Protocol (data) FTP over TLS/SSL
+udp,989,FTPS Protocol (data) FTP over TLS/SSL
+tcp,990,FTPS Protocol (control) FTP over TLS/SSL
+udp,990,FTPS Protocol (control) FTP over TLS/SSL
+tcp,991,Netnews Administration System (NAS)
+udp,991,Netnews Administration System (NAS)
+tcp,992,Telnet protocol over TLS/SSL
+udp,992,Telnet protocol over TLS/SSL
+tcp,993,Internet Message Access Protocol over TLS/SSL (IMAPS)
+tcp,994,Internet Relay Chat over TLS/SSL (IRCS)
+udp,994,Internet Relay Chat over TLS/SSL (IRCS)
+tcp,995,Post Office Protocol 3 over TLS/SSL (POP3S)
+udp,995,Post Office Protocol 3 over TLS/SSL (POP3S)
+tcp,1010,ThinLinc web-based administration interface
+udp,1027,Native IPv6 behind IPv4-to-IPv4 NAT Customer Premises Equipment (6a44)
+tcp,1028,Deprecated
+tcp,1029,Microsoft DCOM services
+tcp,1058,nim IBM AIX Network Installation Manager (NIM)
+udp,1058,nim IBM AIX Network Installation Manager (NIM)
+tcp,1059,nimreg IBM AIX Network Installation Manager (NIM)
+udp,1059,nimreg IBM AIX Network Installation Manager (NIM)
+tcp,1080,SOCKS proxy
+udp,1080,SOCKS proxy
+tcp,1085,WebObjects
+udp,1085,WebObjects
+tcp,1098,rmiactivation Java remote method invocation (RMI) activation
+udp,1098,rmiactivation Java remote method invocation (RMI) activation
+tcp,1099,rmiregistry Java remote method invocation (RMI) registry
+tcp,1109,Reserved - IANA | Kerberos Post Office Protocol (KPOP)
+tcp,1119,Battlenet chat/game protocol used by Blizzard's games
+udp,1119,Battlenet chat/game protocol used by Blizzard's games
+tcp,1167,Cisco IP SLA (Service Assurance Agent)
+udp,1167,Cisco IP SLA (Service Assurance Agent)
+tcp,1194,OpenVPN
+udp,1194,OpenVPN
+tcp,1198,The cajo project Free dynamic transparent distributed computing in Java
+udp,1198,The cajo project Free dynamic transparent distributed computing in Java
+tcp,1214,Kazaa
+udp,1214,Kazaa
+tcp,1220,QuickTime Streaming Server administration
+tcp,1234,Infoseek search agent | VLC media player default port for UDP/RTP stream
+udp,1234,Infoseek search agent | VLC media player default port for UDP/RTP stream
+tcp,1241,Nessus Security Scanner
+udp,1241,Nessus Security Scanner
+tcp,1270,Microsoft System Center Operations Manager (SCOM) (formerly Microsoft Operations Manager (MOM)) agent
+udp,1270,Microsoft System Center Operations Manager (SCOM) (formerly Microsoft Operations Manager (MOM)) agent
+tcp,1293,Internet Protocol Security (IPSec)
+udp,1293,Internet Protocol Security (IPSec)
+tcp,1311,RxMonexe | Dell OpenManage HTTPS
+udp,1311,RxMonexe | Dell OpenManage HTTPS
+tcp,1314,Festival Speech Synthesis System server
+tcp,1337,neo4j-shell | WASTE Encrypted File Sharing Program
+tcp,1341,Qubes (Manufacturing Execution System)
+udp,1341,Qubes (Manufacturing Execution System)
+tcp,1344,Internet Content Adaptation Protocol
+udp,1344,Internet Content Adaptation Protocol
+tcp,1352,IBM Lotus Notes/Domino (RPC) protocol
+udp,1352,IBM Lotus Notes/Domino (RPC) protocol
+tcp,1360,Mimer SQL
+udp,1360,Mimer SQL
+tcp,1414,IBM WebSphere MQ (formerly known as MQSeries)
+udp,1414,IBM WebSphere MQ (formerly known as MQSeries)
+tcp,1417,Timbuktu Service 1 Port
+udp,1417,Timbuktu Service 1 Port
+tcp,1418,Timbuktu Service 2 Port
+udp,1418,Timbuktu Service 2 Port
+tcp,1419,Timbuktu Service 3 Port
+udp,1419,Timbuktu Service 3 Port
+tcp,1420,Timbuktu Service 4 Port
+udp,1420,Timbuktu Service 4 Port
+tcp,1431,Reverse Gossip Transport Protocol (RGTP) used to access a General-purpose Reverse-Ordered Gossip Gathering System (GROGGS) bulletin board such as that implemented on the Cambridge University's Phoenix system
+tcp,1433,Microsoft SQL Server database management system (MSSQL) server
+udp,1433,Microsoft SQL Server database management system (MSSQL) server
+tcp,1434,Microsoft SQL Server database management system (MSSQL) monitor
+udp,1434,Microsoft SQL Server database management system (MSSQL) monitor
+tcp,1492,Sid Meier's CivNet
+tcp,1494,Citrix Independent Computing Architecture (ICA)
+udp,1494,Citrix Independent Computing Architecture (ICA)
+tcp,1500,IBM Tivoli Storage Manager server
+tcp,1501,IBM Tivoli Storage Manager client scheduler
+tcp,1503,Windows Live Messenger (Whiteboard and Application Sharing)
+udp,1503,Windows Live Messenger (Whiteboard and Application Sharing)
+tcp,1512,Microsoft's Windows Internet Name Service (WINS)
+udp,1512,Microsoft's Windows Internet Name Service (WINS)
+tcp,1513,Garena game client
+udp,1513,Garena game client
+tcp,1521,nCUBE License Manager | Oracle database default listener in future releases official port 2483 (TCP/IP) and 2484 (TCP/IP with SSL)
+udp,1521,nCUBE License Manager | Oracle database default listener in future releases official port 2483 (TCP/IP) and 2484 (TCP/IP with SSL)
+tcp,1524,ingreslock ingres
+udp,1524,ingreslock ingres
+tcp,1527,Oracle Net Services formerly known as SQL*Net | Apache Derby Network Server
+udp,1527,Oracle Net Services formerly known as SQL*Net | Apache Derby Network Server
+tcp,1533,IBM Sametime Virtual Places Chat
+udp,1533,IBM Sametime Virtual Places Chat
+udp,1534,Eclipse Target Communication Framework (TCF) agent discovery
+tcp,1547,Laplink
+udp,1547,Laplink
+tcp,1550,Gadu-Gadu (direct client-to-client)
+tcp,1581,MIL STD 2045-47001 VMF | IBM Tivoli Storage Manager web client
+udp,1581,MIL STD 2045-47001 VMF | IBM Tivoli Storage Manager web client
+tcp,1583,Pervasive PSQL
+tcp,1589,Cisco VLAN Query Protocol (VQP)
+udp,1589,Cisco VLAN Query Protocol (VQP)
+tcp,1604,DarkComet remote administration tool (RAT)
+udp,1604,DarkComet remote administration tool (RAT)
+tcp,1626,iSketch
+tcp,1627,iSketch
+tcp,1628,LonTalk normal
+udp,1628,LonTalk normal
+tcp,1629,LonTalk urgent
+udp,1629,LonTalk urgent
+udp,1645,Early deployment of RADIUS before RFC standardization was done using UDP port number 1645 Enabled for compatibility reasons by default on Cisco and Juniper Networks RADIUS servers Official port is 1812 TCP port 1645 must not be used
 udp,1646,radacct
-tcp,1650,nkd
-udp,1650,nkd
-tcp,1651,shiva_confsrvr
-udp,1651,shiva_confsrvr
-tcp,1652,xnmp
-udp,1652,xnmp
-tcp,1661,netview-aix-1
-udp,1661,netview-aix-1
-tcp,1662,netview-aix-2
-udp,1662,netview-aix-2
-tcp,1663,netview-aix-3
-udp,1663,netview-aix-3
-tcp,1664,netview-aix-4
-udp,1664,netview-aix-4
-tcp,1665,netview-aix-5
-udp,1665,netview-aix-5
-tcp,1666,netview-aix-6
-udp,1666,netview-aix-6
-tcp,1667,netview-aix-7
-udp,1667,netview-aix-7
-tcp,1668,netview-aix-8
-udp,1668,netview-aix-8
-tcp,1669,netview-aix-9
-udp,1669,netview-aix-9
-tcp,1670,netview-aix-10
-udp,1670,netview-aix-10
-tcp,1671,netview-aix-11
-udp,1671,netview-aix-11
-tcp,1672,netview-aix-12
-udp,1672,netview-aix-12
-tcp,1680,CarbonCopy
-udp,1701,L2TP
-1720,Q.931,H.323
-tcp,1723,pptp
-tcp,1755,wms
-tcp,1761,landesk-rc
-tcp,1762,landesk-rc
-tcp,1763,landesk-rc
-tcp,1764,landesk-rc
+tcp,1666,Perforce
+tcp,1677,Novell GroupWise clients in client/server access mode
+udp,1677,Novell GroupWise clients in client/server access mode
+tcp,1688,Microsoft Key Management Service (KMS) for Windows Activation
+tcp,1701,Layer 2 Forwarding Protocol (L2F) | Layer 2 Tunneling Protocol (L2TP)
+udp,1701,Layer 2 Forwarding Protocol (L2F) | Layer 2 Tunneling Protocol (L2TP)
+tcp,1707,Windward Studios games (vdmplay) | L2TP/IPsec for establish an initial connection
+udp,1707,Windward Studios games (vdmplay) | L2TP/IPsec for establish an initial connection
+udp,1716,America's Army a massively multiplayer online game (MMO)
+tcp,1719,H323 registration and alternate communication
+udp,1719,H323 registration and alternate communication
+tcp,1720,H323 call signaling
+udp,1720,H323 call signaling
+tcp,1723,Point-to-Point Tunneling Protocol (PPTP)
+tcp,1755,ms-streaming
+udp,1755,ms-streaming
+tcp,1761,Novell ZENworks
+udp,1761,Novell ZENworks
+tcp,1783,sic
+tcp,1801,Microsoft Message Queuing
+udp,1801,Microsoft Message Queuing
+tcp,1812,radius
 udp,1812,radius
-udp,1813,radacct
-tcp,1827,pcm
-tcp,1900,upnp
-udp,1900,upnp
-tcp,1935,rtmp
-tcp,1984,bigbrother
-tcp,1986,licensedaemon
-udp,1986,licensedaemon
-tcp,1987,tr-rsrb-p1
-udp,1987,tr-rsrb-p1
-tcp,1988,tr-rsrb-p2
-udp,1988,tr-rsrb-p2
-tcp,1989,tr-rsrb-p3
-udp,1989,tr-rsrb-p3
-tcp,1990,stun-p1
-udp,1990,stun-p1
-tcp,1991,stun-p2
-udp,1991,stun-p2
-tcp,1992,stun-p3
-udp,1992,stun-p3
-tcp,1993,snmp-tcp-port
-udp,1993,snmp-tcp-port
-tcp,1994,stun-port
-udp,1994,stun-port
-tcp,1995,perf-port
-udp,1995,perf-port
-tcp,1996,tr-rsrb-port
-udp,1996,tr-rsrb-port
-tcp,1997,gdp-port
-udp,1997,gdp-port
-tcp,1998,x25-svc-port
-udp,1998,x25-svc-port
-tcp,1999,tcp-id-port
-udp,1999,tcp-id-port
-tcp,2000,callbook
-udp,2000,callbook
-tcp,2001,dc
-udp,2001,wizard
-tcp,2002,globe
-udp,2002,globe
-tcp,2003,finger
-tcp,2004,mailbox
-udp,2004,emce
-tcp,2005,deslogin
-udp,2005,oracle
-tcp,2006,invokator
-udp,2006,raid-cc
-tcp,2007,dectalk
-udp,2007,raid-am
-tcp,2008,conf
-udp,2008,terminaldb
-tcp,2009,news
-udp,2009,whosockami
-tcp,2010,search
-udp,2010,pipe_server
-tcp,2011,raid-cc
-udp,2011,servserv
-tcp,2012,ttyinfo
-udp,2012,raid-ac
-tcp,2013,raid-am
-udp,2013,raid-cd
-tcp,2014,troff
-udp,2014,raid-sf
-tcp,2015,cypress
-udp,2015,raid-cs
-tcp,2016,bootserver
-udp,2016,bootserver
-tcp,2017,cypress-stat
-udp,2017,bootclient
-tcp,2018,terminaldb
-udp,2018,rellpack
-tcp,2019,whosockami
-udp,2019,about
-tcp,2020,xinupageserver
-udp,2020,xinupageserver
-tcp,2021,servexec
-udp,2021,xinuexpansion1
-tcp,2022,down
-udp,2022,xinuexpansion2
-tcp,2023,xinuexpansion3
-udp,2023,xinuexpansion3
-tcp,2024,xinuexpansion4
-udp,2024,xinuexpansion4
-tcp,2025,ellpack
-udp,2025,xribs
-tcp,2026,scrabble
-udp,2026,scrabble
-tcp,2027,shadowserver
-udp,2027,shadowserver
-tcp,2028,submitserver
-udp,2028,submitserver
-tcp,2030,device2
-udp,2030,device2
-tcp,2032,blackboard
-udp,2032,blackboard
-tcp,2033,glogger
-udp,2033,glogger
-tcp,2034,scoremgr
-udp,2034,scoremgr
-tcp,2035,imsldoc
-udp,2035,imsldoc
-tcp,2038,objectmanager
-udp,2038,objectmanager
-tcp,2040,lam
-udp,2040,lam
-tcp,2041,interbase
-udp,2041,interbase
-tcp,2042,isis
-udp,2042,isis
-tcp,2043,isis-bcast
-udp,2043,isis-bcast
-tcp,2044,rimsl
-udp,2044,rimsl
-tcp,2045,cdfunc
-udp,2045,cdfunc
-tcp,2046,sdfunc
-udp,2046,sdfunc
-tcp,2047,dls
-udp,2047,dls
-tcp,2048,dls-monitor
-udp,2048,dls-monitor
-tcp,2049,nfs
-udp,2049,nfs
-tcp,2064,dnet-keyproxy
-tcp,2053,knetd
-tcp,2065,dlsrpn
-udp,2065,dlsrpn
-tcp,2067,dlswpn
-udp,2067,dlswpn
-tcp,2068,advocentkvm
-udp,2103,zephyr-clt
-udp,2104,zephyr-hm
-tcp,2105,eklogin
-udp,2105,eklogin
-tcp,2106,ekshell
-udp,2106,ekshell
-tcp,2108,rkinit
-udp,2108,rkinit
-tcp,2111,kx
-tcp,2112,kip
-tcp,2120,kauth
-tcp,2121,ccproxy-ftp
-tcp,2201,ats
-udp,2201,ats
-tcp,2232,ivs-video
-udp,2232,ivs-video
-tcp,2241,ivsd
-udp,2241,ivsd
-tcp,2301,compaqdiag
-tcp,2307,pehelp
-udp,2307,pehelp
-tcp,2401,cvspserver
-udp,2401,cvspserver
-tcp,2430,venus
-udp,2430,venus
-tcp,2431,venus-se
-udp,2431,venus-se
-tcp,2432,codasrv
-udp,2432,codasrv
-tcp,2433,codasrv-se
-udp,2433,codasrv-se
-tcp,2500,rtsserv
-udp,2500,rtsserv
-tcp,2501,rtsclient
-udp,2501,rtsclient
-tcp,2564,hp-3000-telnet
-tcp,2600,zebrasrv
-tcp,2601,zebra
-tcp,2602,ripd
-tcp,2603,ripngd
-tcp,2604,ospfd
-tcp,2605,bgpd
-tcp,2627,webster
-udp,2627,webster
-tcp,2628,dict
-tcp,2638,sybase
-tcp,2766,listen
-tcp,2784,www-dev
-udp,2784,www-dev
-tcp,2809,corbaloc
-tcp,2903,extensisportfolio
-udp,2948,wap-push
-udp,2967,symantec-av
-tcp,2998,iss-realsec
-tcp,3000,ppp
-tcp,3001,nessus
-tcp,3005,deslogin
-tcp,3006,deslogind
-tcp,3025,slnp
-tcp,3045,slnp
-tcp,3049,cfs
-udp,3049,cfs
-tcp,3052,powerchute
-tcp,3064,dnet-tstproxy
-tcp,3086,sj3
-tcp,3128,squid-http
-udp,3130,squid-ipc
-tcp,3141,vmodem
-udp,3141,vmodem
-udp,3246,kademlia
-tcp,3264,ccmail
-udp,3264,ccmail
-tcp,3268,globalcatLDAP
-tcp,3269,globalcatLDAPssl
-tcp,3292,meetingmaker
-tcp,3299,saprouter
-tcp,3306,mysql
-tcp,3333,dec-notes
-udp,3333,dec-notes
-tcp,3372,msdtc
-tcp,3389,ms-term-serv
-tcp,3397,saposs
-tcp,3398,sapcomm
-tcp,3399,sapeps
-udp,3401,squid-snmp
-tcp,3421,bmap
-udp,3421,bmap
-tcp,3455,prsvp
-udp,3455,prsvp
-tcp,3456,vat
-udp,3456,IISrpc-or-vat
-tcp,3457,vat-control
-udp,3457,vat-control
-tcp,3462,track
-tcp,3531,peerenabler
-udp,3531,peerenabler
-tcp,3632,distccd
-tcp,3689,rendezvous
-tcp,3900,udt_os
-udp,3900,udt_os
-tcp,3984,mapper-nodemgr
-udp,3984,mapper-nodemgr
-tcp,3985,mapper-mapethd
-udp,3985,mapper-mapethd
-tcp,3986,mapper-ws_ethd
-udp,3986,mapper-ws_ethd
-udp,3996,remoteanything
-udp,3997,remoteanything
-udp,3998,remoteanything
-tcp,3999,remoteanything
-tcp,4000,remoteanything
-udp,4000,icq
-tcp,4002,mlchat-proxy
-tcp,4008,netcheque
-udp,4008,netcheque
-tcp,4045,lockd
-udp,4045,lockd
-tcp,4125,rww
-tcp,4132,nuts_dem
-udp,4132,nuts_dem
-tcp,4133,nuts_bootp
-udp,4133,nuts_bootp
-tcp,4144,wincim
-tcp,4199,eims-admin
-tcp,4224,xtell
-tcp,4321,rwhois
-udp,4321,rwhois
-tcp,4333,msql
-tcp,4343,unicall
-udp,4343,unicall
-tcp,4444,krb524
-udp,4444,krb524
-tcp,4480,proxy-plus
-tcp,4500,sae-urn
-udp,4500,sae-urn
-tcp,4557,fax
-tcp,4559,hylafax
-tcp,4660,mosmig
-tcp,4662,edonkey
-udp,4666,edonkey
-tcp,4672,rfa
-udp,4672,rfa
-udp,4827,squid-htcp
-tcp,4899,radmin
-tcp,4987,maybe-veritas
-tcp,4998,maybe-veritas
-tcp,5000,upnp
-udp,5000,upnp
-tcp,5001,commplex-link
-udp,5001,commplex-link
-tcp,5002,rfe
-udp,5002,rfe
-tcp,5003,filemaker
-udp,5003,filemaker
-tcp,5009,airport-admin
-tcp,5010,telelpathstart
-udp,5010,telelpathstart
-tcp,5011,telelpathattack
-udp,5011,telelpathattack
-tcp,5050,mmcc
-udp,5050,mmcc
-tcp,5100,admd
-tcp,5101,admdog
-tcp,5102,admeng
-tcp,5145,rmonitor_secure
-udp,5145,rmonitor_secure
-tcp,5060,sip
-udp,5060,sip
-tcp,5190,aol
-udp,5190,aol
-tcp,5191,aol-1
-udp,5191,aol-1
-tcp,5192,aol-2
-udp,5192,aol-2
-tcp,5193,aol-3
-udp,5193,aol-3
-tcp,5232,sgi-dgl
-tcp,5236,padl2sim
-udp,5236,padl2sim
-tcp,5300,hacl-hb
-udp,5300,hacl-hb
-tcp,5301,hacl-gs
-udp,5301,hacl-gs
-tcp,5302,hacl-cfg
-udp,5302,hacl-cfg
-tcp,5303,hacl-probe
-udp,5303,hacl-probe
-tcp,5304,hacl-local
-udp,5304,hacl-local
-tcp,5305,hacl-test
-udp,5305,hacl-test
-tcp,5308,cfengine
-udp,5308,cfengine
-udp,5353,zeroconf
-tcp,5400,pcduo-old
-tcp,5405,pcduo
-udp,5428,omid
-tcp,5490,connect-proxy
-tcp,5432,postgresql
-tcp,5500,hotline
-udp,5500,securid
-tcp,5510,secureidprop
-tcp,5520,sdlog
-tcp,5530,sdserv
-tcp,5540,sdreport
-udp,5540,sdxauthd
-tcp,5550,sdadmind
-tcp,5555,freeciv
-udp,5555,rplay
-tcp,5560,isqlplus
-tcp,5631,pcanywheredata
-tcp,5632,pcanywherestat
-udp,5632,pcanywherestat
-tcp,5680,canna
-tcp,5679,activesync
-tcp,5713,proshareaudio
-udp,5713,proshareaudio
-tcp,5714,prosharevideo
-udp,5714,prosharevideo
-tcp,5715,prosharedata
-udp,5715,prosharedata
-tcp,5716,prosharerequest
-udp,5716,prosharerequest
-tcp,5717,prosharenotify
-udp,5717,prosharenotify
-tcp,5800,vnc-http
-tcp,5801,vnc-http-1
-tcp,5802,vnc-http-2
-tcp,5803,vnc-http-3
-tcp,5900,vnc
-tcp,5901,vnc-1
-tcp,5902,vnc-2
-tcp,5903,vnc-3
-tcp,5977,ncd-pref-tcp
-tcp,5978,ncd-diag-tcp
-tcp,5979,ncd-conf-tcp
-tcp,5997,ncd-pref
-tcp,5998,ncd-diag
-tcp,5999,ncd-conf
-tcp,6000,X11
-tcp,6001,X11:1
-tcp,6002,X11:2
-tcp,6003,X11:3
-tcp,6004,X11:4
-tcp,6005,X11:5
-tcp,6006,X11:6
-tcp,6007,X11:7
-tcp,6008,X11:8
-tcp,6009,X11:9
-tcp,6017,xmail-ctrl
-tcp,6050,arcserve
-tcp,6101,backupexec
-tcp,6103,RETS-or-BackupExec
-tcp,6105,isdninfo
-tcp,6106,isdninfo
-tcp,6110,softcm
-udp,6110,softcm
-tcp,6111,spc
-udp,6111,spc
-tcp,6112,dtspc
-tcp,6141,meta-corp
-udp,6141,meta-corp
-tcp,6142,aspentec-lm
-udp,6142,aspentec-lm
-tcp,6143,watershed-lm
-udp,6143,watershed-lm
-tcp,6144,statsci1-lm
-udp,6144,statsci1-lm
-tcp,6145,statsci2-lm
-udp,6145,statsci2-lm
-tcp,6146,lonewolf-lm
-udp,6146,lonewolf-lm
-tcp,6147,montage-lm
-udp,6147,montage-lm
-tcp,6148,ricardo-lm
-udp,6148,ricardo-lm
-tcp,6222,radmind
-tcp,6346,gnutella
-udp,6346,gnutella
-tcp,6347,gnutella2
-udp,6347,gnutella2
-tcp,6400,crystalreports
-tcp,6401,crystalenterprise
-tcp,6543,mythtv
-tcp,6544,mythtv
-tcp,6547,powerchuteplus
-tcp,6548,powerchuteplus
-udp,6549,powerchuteplus
-tcp,6502,netop-rc
-udp,6502,netop-rc
-tcp,6558,xdsxdm
-udp,6558,xdsxdm
-tcp,6588,analogx
-tcp,6662,radmind
-tcp,6665,irc
-tcp,6666,irc
-tcp,6667,irc
-tcp,6668,irc
-tcp,6669,irc
-tcp,6670,irc
-tcp,6700,carracho
-tcp,6701,carracho
-tcp,6881,bittorrent-tracker
-tcp,6969,acmsoda
-udp,6969,acmsoda
-tcp,6699,napster
-tcp,7000,afs3-fileserver
-udp,7000,afs3-fileserver
-tcp,7001,afs3-callback
-udp,7001,afs3-callback
-tcp,7002,afs3-prserver
-udp,7002,afs3-prserver
-tcp,7003,afs3-vlserver
-udp,7003,afs3-vlserver
-tcp,7004,afs3-kaserver
-udp,7004,afs3-kaserver
-tcp,7005,afs3-volser
-udp,7005,afs3-volser
-tcp,7006,afs3-errors
-udp,7006,afs3-errors
-tcp,7007,afs3-bos
-udp,7007,afs3-bos
-tcp,7008,afs3-update
-udp,7008,afs3-update
-tcp,7009,afs3-rmtsys
-udp,7009,afs3-rmtsys
-tcp,7010,ups-onlinet
-udp,7010,ups-onlinet
-tcp,7070,realserver
-tcp,7100,font-service
-udp,7100,font-service
-tcp,7200,fodms
-udp,7200,fodms
-tcp,7201,dlip
-udp,7201,dlip
-tcp,7273,openmanage
-tcp,7326,icb
-tcp,7464,pythonds
-tcp,7597,qaz
-tcp,7634,hddtemp
-udp,7648,cucme-1
-udp,7649,cucme-2
-udp,7650,cucme-3
-udp,7651,cucme-4
-tcp,7937,nsrexecd
-tcp,7938,lgtomapper
-tcp,8000,http-alt
-tcp,8007,ajp12
+tcp,1813,radius-acct
+udp,1813,radius-acct
+tcp,1863,Microsoft Notification Protocol (MSNP) used by the Microsoft Messenger service and a number of instant messaging Messenger clients
+udp,1863,Microsoft Notification Protocol (MSNP) used by the Microsoft Messenger service and a number of instant messaging Messenger clients
+tcp,1880,Node-RED
+tcp,1883,MQTT (formerly MQ Telemetry Transport)
+udp,1883,MQTT (formerly MQ Telemetry Transport)
+tcp,1900,Simple Service Discovery Protocol (SSDP) discovery of UPnP devices
+udp,1900,Simple Service Discovery Protocol (SSDP) discovery of UPnP devices
+tcp,1935,Macromedia Flash Communications Server MX the precursor to Adobe Flash Media Server before Macromedia's acquisition by Adobe on December 3 2005 | Real Time Messaging Protocol (RTMP) primarily used in Adobe Flash
+udp,1935,Macromedia Flash Communications Server MX the precursor to Adobe Flash Media Server before Macromedia's acquisition by Adobe on December 3 2005 | Real Time Messaging Protocol (RTMP) primarily used in Adobe Flash
+udp,1967,Cisco IOS IP Service Level Agreements (IP SLAs) Control Protocol
+tcp,1970,Netop Remote Control
+udp,1970,Netop Remote Control
+tcp,1972,InterSystems Cache
+udp,1972,InterSystems Cache
+tcp,1984,Big Brother
+udp,1984,Big Brother
+tcp,1985,Cisco Hot Standby Router Protocol (HSRP)
+udp,1985,Cisco Hot Standby Router Protocol (HSRP)
+tcp,1998,Cisco X25 over TCP (XOT) service
+udp,1998,Cisco X25 over TCP (XOT) service
+tcp,2000,Cisco Skinny Client Control Protocol (SCCP)
+udp,2000,Cisco Skinny Client Control Protocol (SCCP)
+tcp,2010,Artemis: Spaceship Bridge Simulator
+tcp,2033,Civilization IV multiplayer
+udp,2033,Civilization IV multiplayer
+tcp,2049,Network File System (NFS)
+udp,2049,Network File System (NFS)
+tcp,2056,Civilization IV multiplayer
+udp,2056,Civilization IV multiplayer
+tcp,2080,Autodesk NLM (FLEXlm)
+udp,2080,Autodesk NLM (FLEXlm)
+tcp,2082,cPanel default
+tcp,2083,Secure RADIUS Service (radsec) | cPanel default SSL
+udp,2083,Secure RADIUS Service (radsec) | cPanel default SSL
+tcp,2086,GNUnet | WebHost Manager default
+udp,2086,GNUnet | WebHost Manager default
+tcp,2087,WebHost Manager default SSL
+tcp,2095,cPanel default web mail
+tcp,2096,cPanel default SSL web mail
+tcp,2100,Warzone 2100 multiplayer
+tcp,2101,Networked Transport of RTCM via Internet Protocol (NTRIP)
+tcp,2102,Zephyr Notification Service server
+udp,2102,Zephyr Notification Service server
+tcp,2103,serv-hm
+udp,2103,serv-hm
+tcp,2104,Zephyr Notification Service hostmanager
+udp,2104,Zephyr Notification Service hostmanager
+tcp,2123,GTP control messages (GTP-C)
+udp,2123,GTP control messages (GTP-C)
+tcp,2142,TDMoIP (TDM over IP)
+udp,2142,TDMoIP (TDM over IP)
+tcp,2152,GTP user data messages (GTP-U)
+udp,2152,GTP user data messages (GTP-U)
+tcp,2159,GDB remote debug port
+udp,2159,GDB remote debug port
+tcp,2181,EForward-document transport system | Apache ZooKeeper default client port
+udp,2181,EForward-document transport system | Apache ZooKeeper default client port
+tcp,2195,Apple Push Notification Service
+tcp,2196,Apple Push Notification Service feedback service
+tcp,2210,NOAAPORT Broadcast Network
+udp,2210,NOAAPORT Broadcast Network
+tcp,2211,EMWIN
+udp,2211,EMWIN
+tcp,2221,ESET anti-virus updates
+tcp,2222,EtherNet/IP implicit messaging for IO data | DirectAdmin Access
+udp,2222,EtherNet/IP implicit messaging for IO data | DirectAdmin Access
+tcp,2261,CoMotion master
+udp,2261,CoMotion master
+tcp,2262,CoMotion backup
+udp,2262,CoMotion backup
+tcp,2266,M-Files
+udp,2266,M-Files
+udp,2302,ArmA multiplayer
+udp,2303,(default port for game +1)
+udp,2305,(default port for game +3)
+tcp,2351,AIM game LAN network port
+tcp,2368,Ghost (blogging platform)
+tcp,2369,Default for BMC Control-M/Server Configuration Agent
+tcp,2370,Default for BMC Control-M/Server to allow the Control-M/Enterprise Manager to connect to the Control-M/Server
+tcp,2372,Default for K9 Web Protection/parental controls content filtering agent
+tcp,2379,KGS Go Server
+tcp,2399,FileMaker Data Access Layer (ODBC/JDBC)
+udp,2399,FileMaker Data Access Layer (ODBC/JDBC)
+tcp,2401,CVS version control system password-based server
+udp,2401,CVS version control system password-based server
+tcp,2404,IEC 60870-5-104 used to send electric power telecontrol messages between two systems via directly connected data circuits
+udp,2404,IEC 60870-5-104 used to send electric power telecontrol messages between two systems via directly connected data circuits
+tcp,2424,OrientDB database listening for binary client connections
+tcp,2427,Media Gateway Control Protocol (MGCP) media gateway
+udp,2427,Media Gateway Control Protocol (MGCP) media gateway
+tcp,2447,ovwdb-OpenView Network Node Manager (NNM) daemon
+udp,2447,ovwdb-OpenView Network Node Manager (NNM) daemon
+tcp,2480,OrientDB database listening for HTTP client connections
+tcp,2483,Oracle database listening for insecure client connections to the listener replaces port 1521
+udp,2483,Oracle database listening for insecure client connections to the listener replaces port 1521
+tcp,2484,Oracle database listening for SSL client connections to the listener
+udp,2484,Oracle database listening for SSL client connections to the listener
+tcp,2535,Multicast Address Dynamic Client Allocation Protocol (MADCAP) All standard messages are UDP datagrams
+udp,2535,Multicast Address Dynamic Client Allocation Protocol (MADCAP) All standard messages are UDP datagrams
+tcp,2541,LonTalk/IP
+udp,2541,LonTalk/IP
+tcp,2593,Ultima Online servers
+udp,2593,Ultima Online servers
+tcp,2598,Citrix Independent Computing Architecture (ICA) with Session Reliability; port 1494 without session reliability
+tcp,2599,Ultima Online servers
+udp,2599,Ultima Online servers
+tcp,2638,SQL Anywhere database server
+udp,2638,SQL Anywhere database server
+tcp,2710,XBT Tracker UDP tracker extension is considered experimental
+udp,2710,XBT Tracker UDP tracker extension is considered experimental
+tcp,2727,Media Gateway Control Protocol (MGCP) media gateway controller (call agent)
+udp,2727,Media Gateway Control Protocol (MGCP) media gateway controller (call agent)
+tcp,2809,corbaloc:iiop URL per the CORBA 303 specification
+udp,2809,corbaloc:iiop URL per the CORBA 303 specification
+tcp,2811,gsi ftp per the GridFTP specification
+udp,2811,gsi ftp per the GridFTP specification
+tcp,2827,I2P BOB Bridge
+tcp,2944,Megaco text H248
+udp,2944,Megaco text H248
+tcp,2945,Megaco binary (ASN1) H248
+udp,2945,Megaco binary (ASN1) H248
+tcp,2947,gpsd GPS daemon
+udp,2947,gpsd GPS daemon
+tcp,2948,WAP push Multimedia Messaging Service (MMS)
+udp,2948,WAP push Multimedia Messaging Service (MMS)
+tcp,2949,WAP push secure (MMS)
+udp,2949,WAP push secure (MMS)
+tcp,2967,Symantec System Center agent (SSC-AGENT)
+udp,2967,Symantec System Center agent (SSC-AGENT)
+tcp,3000,Cloud9 IDE server | Ruby on Rails development default | Meteor development default | Resilio Sync spun from BitTorrent Sync | Distributed Interactive Simulation (DIS)
+udp,3000,Cloud9 IDE server | Ruby on Rails development default | Meteor development default | Resilio Sync spun from BitTorrent Sync | Distributed Interactive Simulation (DIS)
+tcp,3004,iSync
+tcp,3020,Common Internet File System (CIFS) See also port 445 for Server Message Block (SMB) a dialect of CIFS
+udp,3020,Common Internet File System (CIFS) See also port 445 for Server Message Block (SMB) a dialect of CIFS
+tcp,3050,gds-db (Interbase/Firebird databases)
+udp,3050,gds-db (Interbase/Firebird databases)
+tcp,3052,APC PowerChute Network
+udp,3052,APC PowerChute Network
+tcp,3074,Xbox LIVE and Games for Windows - Live
+udp,3074,Xbox LIVE and Games for Windows - Live
+tcp,3101,BlackBerry Enterprise Server communication protocol
+tcp,3128,Squid caching web proxy
+tcp,3225,Fibre Channel over IP (FCIP)
+udp,3225,Fibre Channel over IP (FCIP)
+tcp,3233,WhiskerControl research control protocol
+udp,3233,WhiskerControl research control protocol
+tcp,3260,iSCSI
+udp,3260,iSCSI
+tcp,3268,msft-gc Microsoft Global Catalog (LDAP service which contains data from Active Directory forests)
+udp,3268,msft-gc Microsoft Global Catalog (LDAP service which contains data from Active Directory forests)
+tcp,3269,msft-gc-ssl Microsoft Global Catalog over SSL (similar to port 3268 LDAP over SSL)
+udp,3269,msft-gc-ssl Microsoft Global Catalog over SSL (similar to port 3268 LDAP over SSL)
+tcp,3283,Net Assistant | Apple Remote Desktop 20 or later
+udp,3283,Net Assistant | Apple Remote Desktop 20 or later
+udp,3290,Virtual Air Traffic Simulation (VATSIM) network voice communication
+tcp,3305,Odette File Transfer Protocol (OFTP)
+udp,3305,Odette File Transfer Protocol (OFTP)
+tcp,3306,MySQL database system
+tcp,3313,Verisys file integrity monitoring software
+tcp,3316,AzimuthVMS database port for the CCTV recording software AzimuthVMS
+tcp,3323,DECE GEODI Server
+udp,3323,DECE GEODI Server
+udp,3332,Thundercloud DataPath Overlay Control
+tcp,3333,Eggdrop an IRC bot default port | Network Caller ID server | CruiseControlrb
+tcp,3351,Pervasive PSQL
+tcp,3386,GTP' 3GPP GSM/UMTS CDR logging protocol
+udp,3386,GTP' 3GPP GSM/UMTS CDR logging protocol
+tcp,3389,Microsoft Terminal Server (RDP) officially registered as Windows Based Terminal (WBT)
+udp,3389,Microsoft Terminal Server (RDP) officially registered as Windows Based Terminal (WBT)
+tcp,3396,Novell NDPS Printer Agent
+udp,3396,Novell NDPS Printer Agent
+tcp,3412,xmlBlaster
+udp,3412,xmlBlaster
+tcp,3423,Xware xTrm Communication Protocol
+tcp,3424,Xware xTrm Communication Protocol over SSL
+tcp,3455,Resource Reservation Protocol (RSVP)
+udp,3455,Resource Reservation Protocol (RSVP)
+tcp,3478,STUN a protocol for NAT traversal | TURN a protocol for NAT traversal (extension to STUN) | STUN Behavior Discovery See also port 5349
+udp,3478,STUN a protocol for NAT traversal | TURN a protocol for NAT traversal (extension to STUN) | STUN Behavior Discovery See also port 5349
+tcp,3479,PlayStation Network
+udp,3479,PlayStation Network
+tcp,3480,PlayStation Network
+udp,3480,PlayStation Network
+tcp,3483,Slim Devices discovery protocol | Slim Devices SlimProto protocol
+udp,3483,Slim Devices discovery protocol | Slim Devices SlimProto protocol
+tcp,3493,Network UPS Tools (NUT)
+udp,3493,Network UPS Tools (NUT)
+tcp,3516,Smartcard Port
+udp,3516,Smartcard Port
+udp,3527,Microsoft Message Queuing
+tcp,3535,SMTP alternate
+udp,3544,Teredo tunneling
+udp,3605,ComCam IO Port
+tcp,3606,Splitlock Server
+udp,3606,Splitlock Server
+tcp,3632,Distcc distributed compiler
+tcp,3644,Evidian ssowatch
+tcp,3645,Cyc
+udp,3645,Cyc
+tcp,3659,Apple SASL used by Mac OS X Server Password Server | Battlefield 4
+udp,3659,Apple SASL used by Mac OS X Server Password Server | Battlefield 4
+tcp,3667,Information Exchange
+udp,3667,Information Exchange
+tcp,3689,Digital Audio Access Protocol (DAAP) used by Apple's iTunes and AirPlay
+tcp,3690,Subversion (SVN) version control system
+udp,3690,Subversion (SVN) version control system
+tcp,3702,Web Services Dynamic Discovery (WS-Discovery) used by various components of Windows Vista and later
+udp,3702,Web Services Dynamic Discovery (WS-Discovery) used by various components of Windows Vista and later
+tcp,3724,Some Blizzard games | Club Penguin Disney online game for kids
+udp,3724,Some Blizzard games | Club Penguin Disney online game for kids
+tcp,3725,Netia NA-ER Port
+udp,3725,Netia NA-ER Port
+tcp,3768,RBLcheckd server daemon
+udp,3768,RBLcheckd server daemon
+udp,3784,Bidirectional Forwarding Detection (BFD)for IPv4 and IPv6 (Single Hop) (RFC 5881)
+udp,3785,VoIP program used by Ventrilo
+udp,3799,RADIUS change of authorization
+tcp,3804,Harman Professional HiQnet protocol
+udp,3804,Harman Professional HiQnet protocol
+tcp,3825,RedSeal Networks client/server connection
+tcp,3826,WarMUX game server | RedSeal Networks client/server connection
+udp,3826,WarMUX game server | RedSeal Networks client/server connection
+tcp,3830,System Management Agent developed and used by Cerner to monitor and manage solutions
+udp,3830,System Management Agent developed and used by Cerner to monitor and manage solutions
+tcp,3835,RedSeal Networks client/server connection
+tcp,3856,ERP Server Application used by F10 Software
+udp,3856,ERP Server Application used by F10 Software
+tcp,3868,Diameter base protocol (RFC 3588)
+tcp,3872,Oracle Enterprise Manager Remote Agent
+tcp,3880,IGRS
+udp,3880,IGRS
+tcp,3900,udt_os IBM UniData UDT OS
+udp,3960,Warframe
+udp,3962,Warframe
+tcp,3978,OpenTTD
+udp,3978,OpenTTD
+tcp,3979,OpenTTD
+udp,3979,OpenTTD
+tcp,3999,Norman distributed scanning service
+udp,3999,Norman distributed scanning service
+tcp,4000,Diablo II
+udp,4000,Diablo II
+tcp,4001,Microsoft Ants | CoreOS etcd client communication
+tcp,4018,Protocol information and warnings
+udp,4018,Protocol information and warnings
+tcp,4035,IBM Rational Developer for System z Remote System Explorer Daemon
+tcp,4045,Solaris lockd NFS lock daemon/manager
+udp,4045,Solaris lockd NFS lock daemon/manager
+tcp,4050,Mud Master Chat protocol (MMCP) - Peer-to-peer communications between MUD clients
+udp,4069,Minger Email Address Verification Protocol
+tcp,4089,OpenCORE Remote Control Service
+udp,4089,OpenCORE Remote Control Service
+tcp,4090,Kerio
+udp,4090,Kerio
+tcp,4093,PxPlus Client server interface ProvideX
+udp,4093,PxPlus Client server interface ProvideX
+tcp,4096,Ascom Timeplex Bridge Relay Element (BRE)
+udp,4096,Ascom Timeplex Bridge Relay Element (BRE)
+tcp,4105,Shofar (ShofarNexus)
+udp,4105,Shofar (ShofarNexus)
+tcp,4111,Xgrid
+tcp,4116,Smartcard-TLS
+udp,4116,Smartcard-TLS
+tcp,4117,WatchGuard System Manager
+tcp,4125,Microsoft Remote Web Workplace administration
+tcp,4172,Teradici PCoIP
+udp,4172,Teradici PCoIP
+tcp,4190,ManageSieve
+tcp,4198,Couch Potato Android app
+udp,4198,Couch Potato Android app
+tcp,4201,TinyMUD and various derivatives
+tcp,4222,NATS server default port
+tcp,4226,Aleph One a computer game
+udp,4226,Aleph One a computer game
+tcp,4242,Orthanc - DICOM server | Quassel distributed IRC client
+tcp,4243,Docker implementations redistributions and setups default | CrashPlan
+tcp,4244,Viber
+udp,4244,Viber
+tcp,4303,Simple Railroad Command Protocol (SRCP)
+udp,4303,Simple Railroad Command Protocol (SRCP)
+tcp,4307,TrueConf Client - TrueConf Server media data exchange
+tcp,4321,Referral Whois (RWhois) Protocol
+tcp,4352,PJLink by JBMIA for controlling projectors via LAN connections
+tcp,4444,Oracle WebCenter Content: Content Server-Intradoc Socket port (formerly known as Oracle Universal Content Management) | Metasploit's default listener port | Xvfb X server virtual frame buffer service
+udp,4444,Oracle WebCenter Content: Content Server-Intradoc Socket port (formerly known as Oracle Universal Content Management) | Metasploit's default listener port | Xvfb X server virtual frame buffer service
+tcp,4486,Integrated Client Message Service (ICMS)
+udp,4486,Integrated Client Message Service (ICMS)
+tcp,4488,Apple Wide Area Connectivity Service used by Back to My Mac
+tcp,4500,IPSec NAT Traversal (RFC 3947 RFC 4306)
+udp,4500,IPSec NAT Traversal (RFC 3947 RFC 4306)
+udp,4534,Armagetron Advanced server default
+tcp,4560,default Log4j socketappender port
+tcp,4567,Sinatra default server port in development mode (HTTP)
+udp,4569,Inter-Asterisk eXchange (IAX2)
+tcp,4604,Identity Registration Protocol
+tcp,4605,Direct End to End Secure Chat Protocol
+tcp,4662,OrbitNet Message Service | Default for older versions of eMule
+udp,4662,OrbitNet Message Service | Default for older versions of eMule
+tcp,4664,Google Desktop Search
+udp,4672,Default for older versions of eMule
+tcp,4711,eMule optional web interface
+tcp,4713,PulseAudio sound server
+tcp,4728,Computer Associates Desktop and Server Management (DMP)/Port Multiplexer
+tcp,4730,Gearman's job server
+udp,4730,Gearman's job server
+tcp,4739,IP Flow Information Export
+udp,4739,IP Flow Information Export
+tcp,4747,Apprentice
+tcp,4750,BladeLogic Agent
+tcp,4753,SIMON (service and discovery)
+udp,4753,SIMON (service and discovery)
+udp,4789,Virtual eXtensible Local Area Network (VXLAN)
+tcp,4840,OPC UA Connection Protocol (TCP) and OPC UA Multicast Datagram Protocol (UDP) for OPC Unified Architecture from OPC Foundation
+udp,4840,OPC UA Connection Protocol (TCP) and OPC UA Multicast Datagram Protocol (UDP) for OPC Unified Architecture from OPC Foundation
+tcp,4843,OPC UA TCP Protocol over TLS/SSL for OPC Unified Architecture from OPC Foundation
+udp,4843,OPC UA TCP Protocol over TLS/SSL for OPC Unified Architecture from OPC Foundation
+tcp,4847,Web Fresh Communication Quadrion Software & Odorless Entertainment
+udp,4847,Web Fresh Communication Quadrion Software & Odorless Entertainment
+tcp,4848,Java Glassfish Application Server administration default
+tcp,4894,LysKOM Protocol A
+udp,4894,LysKOM Protocol A
+tcp,4949,Munin Resource Monitoring Tool
+tcp,4950,Cylon Controls UC32 Communications Port
+udp,4950,Cylon Controls UC32 Communications Port
+tcp,5000,UPnP-Windows network device interoperability | VTun VPN Software | FlightGear multiplayer | Synology Inc Management Console File Station Audio Station | Flask Development Webserver | Heroku console access | AT&T U-verse public educational and government access (PEG) streaming over HTTP
+udp,5000,UPnP-Windows network device interoperability | VTun VPN Software | FlightGear multiplayer | Synology Inc Management Console File Station Audio Station | Flask Development Webserver | Heroku console access | AT&T U-verse public educational and government access (PEG) streaming over HTTP
+tcp,5001,Slingbox and Slingplayer | Iperf (Tool for measuring TCP and UDP bandwidth performance) | Synology Inc Secured Management Console File Station Audio Station
+udp,5001,Slingbox and Slingplayer | Iperf (Tool for measuring TCP and UDP bandwidth performance) | Synology Inc Secured Management Console File Station Audio Station
+tcp,5002,ASSA ARX access control system
+tcp,5003,FileMaker - name binding and transport
+tcp,5004,Real-time Transport Protocol media data (RTP) (RFC 3551 RFC 4571)
+udp,5004,Real-time Transport Protocol media data (RTP) (RFC 3551 RFC 4571)
+tcp,5005,Real-time Transport Protocol control protocol (RTCP) (RFC 3551 RFC 4571)
+udp,5005,Real-time Transport Protocol control protocol (RTCP) (RFC 3551 RFC 4571)
+tcp,5010,Registered to: TelePath (the IBM FlowMark workflow-management system messaging platform)The TCP port is now used for: IBM WebSphere MQ Workflow
+udp,5010,Registered to: TelePath (the IBM FlowMark workflow-management system messaging platform)The TCP port is now used for: IBM WebSphere MQ Workflow
+tcp,5011,TelePath (the IBM FlowMark workflow-management system messaging platform)
+udp,5011,TelePath (the IBM FlowMark workflow-management system messaging platform)
+tcp,5031,AVM CAPI-over-TCP (ISDN over Ethernet tunneling)
+udp,5031,AVM CAPI-over-TCP (ISDN over Ethernet tunneling)
+tcp,5037,Android ADB server
+tcp,5048,Texai Message Service
+tcp,5050,Yahoo! Messenger
+tcp,5051,ita-agent Symantec Intruder Alert
+tcp,5060,Session Initiation Protocol (SIP)
+udp,5060,Session Initiation Protocol (SIP)
+tcp,5061,Session Initiation Protocol (SIP) over TLS
+tcp,5062,Localisation access
+udp,5062,Localisation access
+tcp,5064,EPICS Channel Access server
+tcp,5065,EPICS Channel Access repeater beacon
+tcp,5070,Binary Floor Control Protocol (BFCP)
+tcp,5082,Qpur Communication Protocol
+udp,5082,Qpur Communication Protocol
+tcp,5083,Qpur File Protocol
+udp,5083,Qpur File Protocol
+tcp,5084,EPCglobal Low Level Reader Protocol (LLRP)
+udp,5084,EPCglobal Low Level Reader Protocol (LLRP)
+tcp,5085,EPCglobal Low Level Reader Protocol (LLRP) over TLS
+udp,5085,EPCglobal Low Level Reader Protocol (LLRP) over TLS
+udp,5093,SafeNet Inc Sentinel LM Sentinel RMS License Manager client-to-server
+tcp,5099,SafeNet Inc Sentinel LM Sentinel RMS License Manager server-to-server
+udp,5099,SafeNet Inc Sentinel LM Sentinel RMS License Manager server-to-server
+tcp,5104,IBM Tivoli Framework NetCOOL/Impact HTTP Service
+tcp,5121,Neverwinter Nights
+tcp,5124,TorgaNET (Micronational Darknet)
+udp,5124,TorgaNET (Micronational Darknet)
+tcp,5125,TorgaNET (Micronational Intelligence Darknet)
+udp,5125,TorgaNET (Micronational Intelligence Darknet)
+tcp,5150,ATMP Ascend Tunnel Management Protocol
+udp,5150,ATMP Ascend Tunnel Management Protocol
+tcp,5151,ESRI SDE Instance | ESRI SDE Remote Start
+udp,5151,ESRI SDE Instance | ESRI SDE Remote Start
+tcp,5154,BZFlag
+udp,5154,BZFlag
+tcp,5172,PC over IP Endpoint Management
+tcp,5190,AOL Instant Messenger protocol
+udp,5198,EchoLink VoIP Amateur Radio Software (Voice)
+udp,5199,EchoLink VoIP Amateur Radio Software (Voice)
+tcp,5200,EchoLink VoIP Amateur Radio Software (Information)
+tcp,5201,Iperf3 (Tool for measuring TCP and UDP bandwidth performance)
+udp,5201,Iperf3 (Tool for measuring TCP and UDP bandwidth performance)
+tcp,5223,Apple Push Notification Service | Extensible Messaging and Presence Protocol (XMPP) client connection over SSL
+tcp,5228,HP Virtual Room Service | Google Play Android Cloud to Device Messaging Service Google Cloud Messaging
+tcp,5242,Viber
+udp,5242,Viber
+tcp,5243,Viber
+udp,5243,Viber
+udp,5246,Control And Provisioning of Wireless Access Points (CAPWAP) CAPWAP control
+udp,5247,Control And Provisioning of Wireless Access Points (CAPWAP) CAPWAP data
+tcp,5269,Extensible Messaging and Presence Protocol (XMPP) server-to-server connection
+tcp,5280,Extensible Messaging and Presence Protocol (XMPP)
+tcp,5281,Undo License Manager | Extensible Messaging and Presence Protocol (XMPP)
+tcp,5298,Extensible Messaging and Presence Protocol (XMPP)
+udp,5298,Extensible Messaging and Presence Protocol (XMPP)
+tcp,5310,Outlaws (1997 video game) Both UDP and TCP are reserved but only UDP is used
+udp,5310,Outlaws (1997 video game) Both UDP and TCP are reserved but only UDP is used
+tcp,5353,Multicast DNS (mDNS)
+udp,5353,Multicast DNS (mDNS)
+tcp,5355,Link-Local Multicast Name Resolution (LLMNR) allows hosts to perform name resolution for hosts on the same local link (only provided by Windows Vista and Server 2008)
+udp,5355,Link-Local Multicast Name Resolution (LLMNR) allows hosts to perform name resolution for hosts on the same local link (only provided by Windows Vista and Server 2008)
+tcp,5357,Web Services for Devices (WSDAPI) (only provided by Windows Vista Windows 7 and Server 2008)
+udp,5357,Web Services for Devices (WSDAPI) (only provided by Windows Vista Windows 7 and Server 2008)
+tcp,5358,WSDAPI Applications to Use a Secure Channel (only provided by Windows Vista Windows 7 and Server 2008)
+udp,5358,WSDAPI Applications to Use a Secure Channel (only provided by Windows Vista Windows 7 and Server 2008)
+udp,5394,Kega Fusion a Sega multi-console emulator
+tcp,5402,Multicast File Transfer Protocol (MFTP)
+udp,5402,Multicast File Transfer Protocol (MFTP)
+tcp,5405,NetSupport Manager
+udp,5405,NetSupport Manager
+tcp,5412,IBM Rational Synergy (Telelogic Synergy) (Continuus CM) Message Router
+udp,5412,IBM Rational Synergy (Telelogic Synergy) (Continuus CM) Message Router
+tcp,5413,Wonderware SuiteLink service
+udp,5413,Wonderware SuiteLink service
+tcp,5417,SNS Agent
+udp,5417,SNS Agent
+tcp,5421,NetSupport Manager
+udp,5421,NetSupport Manager
+tcp,5432,PostgreSQL database system
+tcp,5433,Bouwsoft file/webserver
+udp,5445,Cisco Unified Video Advantage
+tcp,5480,VMware VAMI (Virtual Appliance Management Infrastructure)-used for initial setup of various administration settings on Virtual Appliances designed using the VAMI architecture
+tcp,5481,Schneider Electric's ClearSCADA (SCADA implementation for Windows) - used for client-to-server communication
+tcp,5495,IBM Cognos TM1 Admin server
+tcp,5498,Hotline tracker server connection
+udp,5499,Hotline tracker server discovery
+tcp,5500,Hotline control connection | VNC Remote Frame Buffer RFB protocol-for incoming listening viewer
+tcp,5501,Hotline file transfer connection
+tcp,5517,Setiqueue Proxy server client for SETI@Home project
+tcp,5550,Hewlett-Packard Data Protector
+tcp,5554,Fastboot default wireless port
+udp,5554,Fastboot default wireless port
+tcp,5555,Oracle WebCenter Content: Inbound Refinery-Intradoc Socket port (formerly known as Oracle Universal Content Management) Port though often changed during installation | Freeciv versions up to 20 Hewlett-Packard Data Protector McAfee EndPoint Encryption Database Server SAP Default for Microsoft Dynamics CRM 40 Softether VPN default port
+udp,5555,Oracle WebCenter Content: Inbound Refinery-Intradoc Socket port (formerly known as Oracle Universal Content Management) Port though often changed during installation | Freeciv versions up to 20 Hewlett-Packard Data Protector McAfee EndPoint Encryption Database Server SAP Default for Microsoft Dynamics CRM 40 Softether VPN default port
+tcp,5556,Freeciv Oracle WebLogic Server Node Manager
+udp,5556,Freeciv Oracle WebLogic Server Node Manager
+tcp,5568,Session Data Transport (SDT) a part of Architecture for Control Networks (ACN)
+udp,5568,Session Data Transport (SDT) a part of Architecture for Control Networks (ACN)
+tcp,5631,pcANYWHEREdata Symantec pcAnywhere (version 752 and later) data
+udp,5632,pcANYWHEREstat Symantec pcAnywhere (version 752 and later) status
+tcp,5656,IBM Lotus Sametime p2p file transfer
+tcp,5666,NRPE (Nagios)
+tcp,5667,NSCA (Nagios)
+tcp,5670,FILEMQ ZeroMQ File Message Queuing Protocol | ZRE-DISC ZeroMQ Realtime Exchange Protocol (Discovery)
+udp,5670,FILEMQ ZeroMQ File Message Queuing Protocol | ZRE-DISC ZeroMQ Realtime Exchange Protocol (Discovery)
+tcp,5672,AMQP
+udp,5678,Mikrotik RouterOS Neighbor Discovery Protocol (MNDP)
+udp,5683,Constrained Application Protocol (CoAP)
+tcp,5701,Hazelcast default communication port
+tcp,5718,Microsoft DPM Data Channel (with the agent coordinator)
+tcp,5719,Microsoft DPM Data Channel (with the protection agent)
+tcp,5722,Microsoft RPC DFSR (SYSVOL) Replication Service
+udp,5722,Microsoft RPC DFSR (SYSVOL) Replication Service
+tcp,5723,System Center Operations Manager
+tcp,5724,Operations Manager Console
+tcp,5741,IDA Discover Port 1
+udp,5741,IDA Discover Port 1
+tcp,5742,IDA Discover Port 2
+udp,5742,IDA Discover Port 2
+tcp,5800,VNC Remote Frame Buffer RFB protocol over HTTP | ProjectWise Server
+tcp,5900,Remote Frame Buffer protocol (RFB) | Virtual Network Computing (VNC) Remote Frame Buffer RFB protocol
+udp,5900,Remote Frame Buffer protocol (RFB) | Virtual Network Computing (VNC) Remote Frame Buffer RFB protocol
+tcp,5931,AMMYY admin Remote Control
+udp,5931,AMMYY admin Remote Control
+tcp,5938,TeamViewer remote desktop protocol
+udp,5938,TeamViewer remote desktop protocol
+tcp,5984,CouchDB database server
+udp,5984,CouchDB database server
+tcp,5985,Windows PowerShell Default psSession Port
+tcp,5986,Windows PowerShell Default psSession Port
+tcp,6000,X11-used between an X client and server over the network
+udp,6000,X11-used between an X client and server over the network
+tcp,6005,Default for BMC Software Control-M/Server-Socket used for communication between Control-M processes-though often changed during installation | Default for Camfrog chat & cam client
+tcp,6009,JD Edwards EnterpriseOne ERP system JDENet messaging client listener
+tcp,6050,Arcserve backup
+tcp,6051,Arcserve backup
+tcp,6063,X11-used between an X client and server over the network
+udp,6063,X11-used between an X client and server over the network
+tcp,6086,Peer Distributed Transfer Protocol (PDTP) FTP like file server in a P2P network
+tcp,6100,Vizrt System | Ventrilo authentication for version 3
+tcp,6101,Backup Exec Agent Browser
+tcp,6110,softcm HP Softbench CM
+udp,6110,softcm HP Softbench CM
+tcp,6111,spc HP Softbench Sub-Process Control
+udp,6111,spc HP Softbench Sub-Process Control
+tcp,6112,dtspcd execute commands and launch applications remotely | Blizzard's Battlenet gaming service and some games ArenaNet gaming service Relic gaming service | Club Penguin Disney online game for kids
+udp,6112,dtspcd execute commands and launch applications remotely | Blizzard's Battlenet gaming service and some games ArenaNet gaming service Relic gaming service | Club Penguin Disney online game for kids
+tcp,6113,Club Penguin Disney online game for kids Used by some Blizzard games
+tcp,6136,ObjectDB database server
+tcp,6159,ARINC 840 EFB Application Control Interface
+tcp,6200,Oracle WebCenter Content Portable: Content Server (With Native UI) and Inbound Refinery
+tcp,6201,Oracle WebCenter Content Portable: Admin
+tcp,6225,Oracle WebCenter Content Portable: Content Server Web UI
+tcp,6227,Oracle WebCenter Content Portable: JavaDB
+tcp,6240,Oracle WebCenter Content Portable: Capture
+tcp,6244,Oracle WebCenter Content Portable: Content Server-Intradoc Socket port
+udp,6244,Oracle WebCenter Content Portable: Content Server-Intradoc Socket port
+tcp,6255,Oracle WebCenter Content Portable: Inbound Refinery-Intradoc Socket port
+udp,6255,Oracle WebCenter Content Portable: Inbound Refinery-Intradoc Socket port
+udp,6257,WinMX (see also 6699)
+tcp,6260,planet MULE
+udp,6260,planet MULE
+tcp,6262,Sybase Advantage Database Server
+udp,6343,SFlow sFlow traffic monitoring
+tcp,6346,gnutella-svc gnutella (FrostWire Limewire Shareaza etc)
+udp,6346,gnutella-svc gnutella (FrostWire Limewire Shareaza etc)
+tcp,6347,gnutella-rtr Gnutella alternate
+udp,6347,gnutella-rtr Gnutella alternate
+tcp,6350,App Discovery and Access Protocol
+udp,6350,App Discovery and Access Protocol
+tcp,6379,Redis key-value data store
+tcp,6389,EMC CLARiiON
+tcp,6432,PgBouncer-A connection pooler for PostgreSQL
+tcp,6436,Leap Motion Websocket Server TLS
+tcp,6437,Leap Motion Websocket Server
+tcp,6444,Sun Grid Engine Qmaster Service
+udp,6444,Sun Grid Engine Qmaster Service
+tcp,6445,Sun Grid Engine Execution Service
+udp,6445,Sun Grid Engine Execution Service
+tcp,6502,Netop Remote Control
+udp,6502,Netop Remote Control
+tcp,6513,NETCONF over TLS
+tcp,6514,Syslog over TLS
+tcp,6515,Elipse RPC Protocol (REC)
+udp,6515,Elipse RPC Protocol (REC)
+tcp,6522,Gobby (and other libobby-based software)
+tcp,6523,Gobby 05 (and other libinfinity-based software)
+tcp,6543,Pylons project#Pyramid Default Pylons Pyramid web service port
+tcp,6556,Check MK Agent
+tcp,6566,SANE (Scanner Access Now Easy)-SANE network scanner daemon
+tcp,6571,Windows Live FolderShare client
+tcp,6600,Microsoft Hyper-V Live | Music Player Daemon (MPD)
+tcp,6601,Microsoft Forefront Threat Management Gateway
+tcp,6602,Microsoft Windows WSS Communication
+tcp,6619,odette-ftps Odette File Transfer Protocol (OFTP) over TLS/SSL
+udp,6619,odette-ftps Odette File Transfer Protocol (OFTP) over TLS/SSL
+tcp,6622,Multicast FTP
+udp,6622,Multicast FTP
+tcp,6653,OpenFlow
+tcp,6679,Osorno Automation Protocol (OSAUT) | IRC SSL (Secure Internet Relay Chat)-often used
+udp,6679,Osorno Automation Protocol (OSAUT) | IRC SSL (Secure Internet Relay Chat)-often used
+tcp,6690,Synology Cloud station
+tcp,6697,IRC SSL (Secure Internet Relay Chat)-often used
+tcp,6699,WinMX (see also 6257)
+tcp,6715,AberMUD and derivatives default port
+tcp,6789,Campbell Scientific Loggernet Software | Bucky's Instant Messaging Program
+tcp,6869,Derandom default server
+tcp,6888,MUSE | BitTorrent part of full range of ports used most often
+udp,6888,MUSE | BitTorrent part of full range of ports used most often
+tcp,6901,Windows Live Messenger (Voice) | BitTorrent part of full range of ports used most often
+udp,6901,Windows Live Messenger (Voice) | BitTorrent part of full range of ports used most often
+tcp,6969,acmsoda | BitTorrent tracker
+udp,6969,acmsoda | BitTorrent tracker
+tcp,7000,Default for Vuze's built in HTTPS Bittorrent Tracker | Avira Server Management Console
+tcp,7001,Avira Server Management Console | Default for BEA WebLogic Server's HTTP server though often changed during installation
+tcp,7002,Default for BEA WebLogic Server's HTTPS server though often changed during installation
+tcp,7005,Default for BMC Software Control-M/Server and Control-M/Agent for Agent-to-Server though often changed during installation
+tcp,7006,Default for BMC Software Control-M/Server and Control-M/Agent for Server-to-Agent though often changed during installation
+tcp,7010,Default for Cisco AON AMC (AON Management Console)
+tcp,7022,Database mirroring endpoints
+udp,7023,Bryan Wilcutt T2-NMCS Protocol for SatCom Modems
+tcp,7025,Zimbra LMTP [mailbox]-local mail delivery
+tcp,7047,Zimbra conversion server
+tcp,7070,Real Time Streaming Protocol (RTSP) used by QuickTime Streaming Server TCP is used by default UDP is used as an alternate
+tcp,7133,Enemy Territory: Quake Wars
+tcp,7144,Peercast
+tcp,7145,Peercast
+tcp,7171,Tibia
+tcp,7262,CNAP (Calypso Network Access Protocol)
+udp,7262,CNAP (Calypso Network Access Protocol)
+tcp,7272,WatchMe - WatchMe Monitoring
+udp,7272,WatchMe - WatchMe Monitoring
+tcp,7306,Zimbra mysql [mailbox]
+tcp,7307,Zimbra mysql [logger]
+udp,7312,Sibelius License Server
+tcp,7396,Web control interface for Folding@home v736 and later
+tcp,7400,RTPS (Real Time Publish Subscribe) DDS Discovery
+udp,7400,RTPS (Real Time Publish Subscribe) DDS Discovery
+tcp,7401,RTPS (Real Time Publish Subscribe) DDS User-Traffic
+udp,7401,RTPS (Real Time Publish Subscribe) DDS User-Traffic
+tcp,7402,RTPS (Real Time Publish Subscribe) DDS Meta-Traffic
+udp,7402,RTPS (Real Time Publish Subscribe) DDS Meta-Traffic
+tcp,7471,Stateless Transport Tunneling (STT)
+tcp,7473,Rise: The Vieneo Province
+tcp,7474,Neo4J Server webadmin
+tcp,7478,Default port used by Open iT Server
+tcp,7542,Saratoga
+udp,7542,Saratoga
+tcp,7547,CPE WAN Management Protocol (CWMP) Technical Report 069
+udp,7547,CPE WAN Management Protocol (CWMP) Technical Report 069
+udp,7575,Populous: The Beginning server
+tcp,7624,Instrument Neutral Distributed Interface
+udp,7624,Instrument Neutral Distributed Interface
+tcp,7631,ERLPhase
+tcp,7634,hddtemp-Utility to monitor hard drive temperature
+udp,7655,I2P SAM Bridge Socket API
+tcp,7670,BrettspielWelt BSW Boardgame Portal
+tcp,7687,Bolt database connection
+udp,7717,Killing Floor
+tcp,7777,iChat server file transfer proxy | Oracle Cluster File System 2 | Windows backdoor program tiniexe default | Just Cause 2: Multiplayer Mod Server | Terraria default server | San Andreas Multiplayer (SA-MP) default port server
+udp,7777,iChat server file transfer proxy | Oracle Cluster File System 2 | Windows backdoor program tiniexe default | Just Cause 2: Multiplayer Mod Server | Terraria default server | San Andreas Multiplayer (SA-MP) default port server
+tcp,7831,Default used by Smartlaunch Internet Cafe Administration software
+tcp,7880,PowerSchool Gradebook Server
+udp,7880,PowerSchool Gradebook Server
+tcp,7890,Default that will be used by the iControl Internet Cafe Suite Administration software
+tcp,7915,Default for YSFlight server
+tcp,7935,Fixed port used for Adobe Flash Debug Player to communicate with a debugger (Flash IDE Flex Builder or fdb)
+tcp,7990,Atlassian Bitbucket (default port)
+tcp,8000,Commonly used for Internet radio streams such as SHOUTcast Icecast and iTunes Radio | DynamoDB Local | Django Development Webserver
+tcp,8005,Tomcat remote shutdown
+tcp,8006,Quest AppAssure 5 API
+tcp,8007,Quest AppAssure 5 Engine
+tcp,8008,Alternative port for HTTP See also ports 80 and 8080 | IBM HTTP Server administration default | iCal a calendar application by Apple
+udp,8008,Alternative port for HTTP See also ports 80 and 8080 | IBM HTTP Server administration default | iCal a calendar application by Apple
 tcp,8009,ajp13
-tcp,8021,ftp-proxy
-tcp,8076,slnp
-tcp,8080,http-proxy
-tcp,8081,blackice-icecap
-tcp,8082,blackice-alerts
-tcp,8118,privoxy
-tcp,8123,polipo
-tcp,8443,https-alt
-tcp,8770,apple-iphoto
-tcp,8888,sun-answerbook
-tcp,8892,seosload
-tcp,9040,tor-trans
-tcp,9050,tor-socks
-tcp,9051,tor-control
-tcp,9090,zeus-admin
-tcp,9100,jetdirect
-tcp,9101,jetdirect
-tcp,9102,jetdirect
-tcp,9103,jetdirect
-tcp,9104,jetdirect
-tcp,9105,jetdirect
-tcp,9106,jetdirect
-tcp,9107,jetdirect
-tcp,9111,DragonIDSConsole
-tcp,9152,ms-sql2000
-tcp,9535,man
-udp,9535,man
-tcp,9876,sd
-udp,9876,sd
-tcp,9991,issa
-tcp,9992,issc
-tcp,9999,abyss
-tcp,10000,snet-sensor-mgmt
-tcp,10005,stel
-udp,10080,amanda
-tcp,10082,amandaidx
-tcp,10083,amidxtape
-tcp,11371,pksd
-tcp,12000,cce4x
-tcp,12345,netbus
-tcp,12346,netbus
-tcp,13701,netbackup
-tcp,13702,netbackup
-tcp,13705,netbackup
-tcp,13706,netbackup
-tcp,13708,netbackup
-tcp,13709,netbackup
-tcp,13710,netbackup
-tcp,13711,netbackup
-tcp,13712,netbackup
-tcp,13713,netbackup
-tcp,13714,netbackup
-tcp,13715,netbackup
-tcp,13716,netbackup
-tcp,13717,netbackup
-tcp,13718,netbackup
-tcp,13720,netbackup
-tcp,13721,netbackup
-tcp,13722,netbackup
-tcp,13782,netbackup
-tcp,13783,netbackup
-tcp,14141,bo2k
-tcp,15151,bo2k
-tcp,15126,swgps
-tcp,16080,osxwebadmin
-tcp,16444,overnet
-udp,16444,overnet
-tcp,16959,subseven
-tcp,17007,isode-dua
-udp,17007,isode-dua
-udp,17185,wdbrpc
-tcp,17300,kuang2
-tcp,18000,biimenu
-udp,18000,biimenu
-tcp,18181,opsec-cvp
-tcp,18182,opsec-ufp
-tcp,18183,opsec-sam
-tcp,18184,opsec-lea
-tcp,18185,opsec-omi
-tcp,18187,opsec-ela
-tcp,19150,gkrellm
-tcp,20005,btx
-tcp,22273,wnn6
-tcp,22289,wnn6_Cn
-tcp,22305,wnn6_Kr
-tcp,22321,wnn6_Tw
-tcp,22370,hpnpd
-udp,22370,hpnpd
-udp,26000,quake
-tcp,26208,wnn6_DS
-udp,26900,hexen2
-tcp,27000,flexlm0
-tcp,27001,flexlm1
-tcp,27002,flexlm2
-tcp,27003,flexlm3
-tcp,27004,flexlm4
-tcp,27005,flexlm5
-tcp,27006,flexlm6
-tcp,27007,flexlm7
-tcp,27008,flexlm8
-tcp,27009,flexlm9
-tcp,27010,flexlm10
-udp,27015,halflife
-tcp,27374,subseven
-udp,27444,Trinoo_Bcast
-udp,27500,quakeworld
-tcp,27665,Trinoo_Master
-udp,27910,quake2
-udp,27960,quake3
-udp,28910,heretic2
-udp,31335,Trinoo_Register
-udp,31337,BackOrifice
-tcp,31337,Elite
-tcp,31416,boinc
-udp,32768,omad
-tcp,32770,sometimes-rpc3
-udp,32770,sometimes-rpc4
-tcp,32771,sometimes-rpc5
-udp,32771,sometimes-rpc6
-tcp,32772,sometimes-rpc7
-udp,32772,sometimes-rpc8
-tcp,32773,sometimes-rpc9
-udp,32773,sometimes-rpc10
-tcp,32774,sometimes-rpc11
-udp,32774,sometimes-rpc12
-tcp,32775,sometimes-rpc13
-udp,32775,sometimes-rpc14
-tcp,32776,sometimes-rpc15
-udp,32776,sometimes-rpc16
-tcp,32777,sometimes-rpc17
-udp,32777,sometimes-rpc18
-tcp,32778,sometimes-rpc19
-udp,32778,sometimes-rpc20
-tcp,32779,sometimes-rpc21
-udp,32779,sometimes-rpc22
-tcp,32780,sometimes-rpc23
-udp,32780,sometimes-rpc24
-tcp,32786,sometimes-rpc25
-udp,32786,sometimes-rpc26
-tcp,32787,sometimes-rpc27
-udp,32787,sometimes-rpc28
-tcp,38037,landesk-cba
-udp,38037,landesk-cba
-tcp,38292,landesk-cba
-udp,38293,landesk-cba
-udp,39213,sygatefw
-tcp,43188,reachout
-tcp,44334,tinyfw
-tcp,44442,coldfusion-auth
-tcp,44443,coldfusion-auth
-udp,45000,ciscopop
-tcp,47557,dbbrowse
-udp,47557,dbbrowse
-tcp,49400,compaqdiag
-tcp,50000,iiimsf
-tcp,50002,iiimsf
-tcp,54320,bo2k
-udp,54321,bo2k
-tcp,61439,netprowler-manager
-tcp,61440,netprowler-manager2
-tcp,61441,netprowler-sensor
-tcp,65301,pcanywhere
+tcp,8042,Orthanc - REST API over HTTP
+tcp,8069,OpenERP 50 XML-RPC protocol
+tcp,8070,OpenERP 50 NET-RPC protocol
+tcp,8074,Gadu-Gadu
+udp,8074,Gadu-Gadu
+tcp,8075,Killing Floor
+tcp,8080,Alternative port for HTTP See also ports 80 and 8008 | Apache Tomcat | Atlassian JIRA applications
+udp,8080,Alternative port for HTTP See also ports 80 and 8008 | Apache Tomcat | Atlassian JIRA applications
+tcp,8088,Asterisk management access via HTTP
+tcp,8089,Splunk daemon management | Fritz!Box automatic TR-069 configuration
+tcp,8090,Atlassian Confluence | Coral Content Distribution Network (legacy; 80 and 8080 now supported)
+tcp,8091,CouchBase web administration
+tcp,8092,CouchBase API
+tcp,8111,JOSM Remote Control
+tcp,8112,PAC Pacifica Coin
+udp,8116,Check Point Cluster Control Protocol
+tcp,8118,Privoxy-advertisement-filtering Web proxy
+tcp,8123,Polipo Web proxy
+tcp,8139,Puppet (software) Client agent
+tcp,8140,Puppet (software) Master server
+tcp,8172,Microsoft Remote Administration for IIS Manager
+tcp,8184,NCSA Brown Dog Data Access Proxy
+tcp,8194,Bloomberg Application
+tcp,8195,Bloomberg Application
+tcp,8200,GoToMyPC | MiniDLNA media server Web Interface
+tcp,8222,VMware VI Web Access via HTTP
+tcp,8243,HTTPS listener for Apache Synapse
+udp,8243,HTTPS listener for Apache Synapse
+tcp,8245,Dynamic DNS for at least No-IP and DyDNS
+tcp,8280,HTTP listener for Apache Synapse
+udp,8280,HTTP listener for Apache Synapse
+tcp,8281,HTTP Listener for Gatecraft Plugin
+tcp,8291,Winbox-Default on a MikroTik RouterOS for a Windows application used to administer MikroTik RouterOS
+udp,8303,Teeworlds Server
+tcp,8332,Bitcoin JSON-RPC server
+tcp,8333,Bitcoin | VMware VI Web Access via HTTPS
+tcp,8337,VisualSVN Distributed File System Service (VDFS)
+tcp,8384,Syncthing web GUI
+tcp,8388,Shadowsocks proxy server
+tcp,8443,SW Soft Plesk Control Panel | Apache Tomcat SSL | Promise WebPAM SSL | iCal over SSL
+tcp,8444,Bitmessage
+tcp,8484,MapleStory Login Server
+tcp,8500,Adobe ColdFusion built-in web server
+tcp,8530,Windows Server Update Services over HTTP
+tcp,8531,Windows Server Update Services over HTTPS
+tcp,8580,Freegate an Internet anonymizer and proxy tool
+tcp,8629,Tibero database
+tcp,8642,Lotus Notes Traveler auto synchronization for Windows Mobile and Nokia devices
+tcp,8691,Ultra Fractal a fractal generation and rendering software application - distributed calculations over networked computers
+udp,8767,Voice channel of TeamSpeak 2 a proprietary Voice over IP protocol targeted at gamers
+tcp,8834,Nessus a vulnerability scanner - remote XML-RPC web server
+tcp,8840,Opera Unite an extensible framework for web applications
+tcp,8880,Alternate port of CDDB (Compact Disc Database) protocol used to look up audio CD (compact disc) information over the Internet See also port 888 | IBM WebSphere Application Server SOAP connector
+tcp,8883,Secure MQTT (MQTT over TLS)
+udp,8883,Secure MQTT (MQTT over TLS)
+tcp,8887,HyperVM over HTTP
+tcp,8888,HyperVM over HTTPS | Freenet web UI (localhost only) | Default for IPython / Jupyter notebook dashboards | MAMP web server
+udp,8888,HyperVM over HTTPS | Freenet web UI (localhost only) | Default for IPython / Jupyter notebook dashboards | MAMP web server
+tcp,8889,MAMP MySQL database server
+tcp,8983,Apache Solr
+tcp,8997,Alternate port for I2P Monotone Proxy
+tcp,8998,I2P Monotone Proxy
+tcp,8999,Alternate port for I2P Monotone Proxy
+tcp,9000,SonarQube Web Server | DBGp | SqueezeCenter web server & streaming | UDPCast | Play! Framework web server | Hadoop NameNode default port | PHP-FPM default port | QBittorrent's embedded torrent tracker default port
+udp,9000,SonarQube Web Server | DBGp | SqueezeCenter web server & streaming | UDPCast | Play! Framework web server | Hadoop NameNode default port | PHP-FPM default port | QBittorrent's embedded torrent tracker default port
+tcp,9001,ETL Service Manager | Microsoft SharePoint authoring environment | cisco-xremote router configuration | Tor network default | DBGp Proxy | HSQLDB default port
+udp,9001,ETL Service Manager | Microsoft SharePoint authoring environment | cisco-xremote router configuration | Tor network default | DBGp Proxy | HSQLDB default port
+tcp,9002,Newforma Server comms
+tcp,9006,De-Commissioned Port | Tomcat in standalone mode
+tcp,9030,Tor often used
+tcp,9042,Apache Cassandra native protocol clients
+tcp,9043,WebSphere Application Server Administration Console secure
+tcp,9060,WebSphere Application Server Administration Console
+tcp,9080,glrpc Groove Collaboration software GLRPC | WebSphere Application Server HTTP Transport (port 1) default | Remote Potato by FatAttitude Windows Media Center addon | ServerWMC Windows Media Center addon
+udp,9080,glrpc Groove Collaboration software GLRPC | WebSphere Application Server HTTP Transport (port 1) default | Remote Potato by FatAttitude Windows Media Center addon | ServerWMC Windows Media Center addon
+tcp,9090,Openfire Administration Console | SqueezeCenter control (CLI) | Cherokee Admin Panel
+tcp,9091,Openfire Administration Console (SSL Secured) | Transmission (BitTorrent client) Web Interface
+tcp,9092,H2 (DBMS) Database Server | Apache Kafka A Distributed Streaming Platform
+tcp,9100,PDL Data Stream used for printing to certain network printers
+tcp,9101,Bacula Director
+udp,9101,Bacula Director
+tcp,9102,Bacula File Daemon
+udp,9102,Bacula File Daemon
+tcp,9103,Bacula Storage Daemon
+udp,9103,Bacula Storage Daemon
+tcp,9119,MXit Instant Messenger
+udp,9119,MXit Instant Messenger
+tcp,9150,Tor
+tcp,9191,Sierra Wireless Airlink
+tcp,9199,Avtex LLC-qStats
+tcp,9200,Elasticsearch-default Elasticsearch port
+tcp,9217,iPass Platform Service
+tcp,9293,Sony PlayStation RemotePlay
+tcp,9300,IBM Cognos BI
+udp,9303,D-Link Shareport Share storage and MFP printers
+tcp,9306,Sphinx Native API
+tcp,9309,Sony PlayStation Vita Host Collaboration WiFi Data Transfer
+udp,9309,Sony PlayStation Vita Host Collaboration WiFi Data Transfer
+tcp,9312,Sphinx SphinxQL
+tcp,9332,Litecoin JSON-RPC server
+tcp,9333,Litecoin
+tcp,9339,Clash of Clans a mobile freemium strategy video game
+tcp,9389,adws Microsoft AD DS Web Services Powershell uses this port
+udp,9389,adws Microsoft AD DS Web Services Powershell uses this port
+tcp,9418,git Git pack transfer service
+udp,9418,git Git pack transfer service
+tcp,9419,MooseFS distributed file system - master control port
+tcp,9420,MooseFS distributed file system - master command port
+tcp,9421,MooseFS distributed file system - master client port
+tcp,9422,MooseFS distributed file system - Chunkservers
+tcp,9425,MooseFS distributed file system - CGI server
+tcp,9443,VMware Websense Triton console (HTTPS port used for accessing and administrating a vCenter Server via the Web Management Interface) | NCSA Brown Dog Data Tilling Service
+tcp,9535,mngsuite LANDesk Management Suite Remote Control
+udp,9535,mngsuite LANDesk Management Suite Remote Control
+tcp,9536,laes-bf IP Fabrics Surveillance buffering function
+udp,9536,laes-bf IP Fabrics Surveillance buffering function
+tcp,9600,Factory Interface Network Service (FINS) a network protocol used by Omron programmable logic controllers
+tcp,9675,Spiceworks Desktop IT Helpdesk Software
+udp,9675,Spiceworks Desktop IT Helpdesk Software
+tcp,9676,Spiceworks Desktop IT Helpdesk Software
+udp,9676,Spiceworks Desktop IT Helpdesk Software
+tcp,9695,Content centric networking (CCN CCNx)
+udp,9695,Content centric networking (CCN CCNx)
+tcp,9785,Viber
+udp,9785,Viber
+tcp,9800,WebDAV Source | WebCT e-learning portal
+udp,9800,WebDAV Source | WebCT e-learning portal
+tcp,9875,Club Penguin Disney online game for kids
+tcp,9898,Tripwire-File Integrity Monitoring Software
+udp,9899,SCTP tunneling (port number used in SCTP packets encapsulated in UDP RFC 6951)
+tcp,9981,TVHeadend HTTP server (web interface)
+tcp,9982,TVHeadend HTSP server (Streaming protocol)
+udp,9987,TeamSpeak 3 server default (voice) port (for the conflicting service see the IANA list)
+udp,9993,ZeroTier Default port for ZeroTier
+tcp,9997,Splunk port for communication between the forwarders and indexers
+tcp,9999,Urchin Web Analytics
+tcp,10000,Network Data Management Protocol | BackupExec | Webmin Web-based Unix/Linux system administration tool (default port)
+udp,10000,Network Data Management Protocol | BackupExec | Webmin Web-based Unix/Linux system administration tool (default port)
+udp,10001,Ubiquiti UniFi access points broadcast to 255255255255:10001 (UDP) to locate the controller(s)
+tcp,10009,CrossFire
+udp,10009,CrossFire
+tcp,10010,Open Object Rexx (ooRexx) rxapi daemon
+tcp,10024,Zimbra smtp [mta]-to amavis from postfix
+tcp,10025,Zimbra smtp [mta]-back to postfix from amavis
+tcp,10042,Mathoid server
+tcp,10050,Zabbix agent
+udp,10050,Zabbix agent
+tcp,10051,Zabbix trapper
+udp,10051,Zabbix trapper
+tcp,10080,Touhou fight games (Immaterial and Missing Power Scarlet Weather Rhapsody Hisoutensoku Hopeless Masquerade and Urban Legend in Limbo)
+tcp,10110,NMEA 0183 Navigational Data Transport of NMEA 0183 sentences over TCP or UDP
+udp,10110,NMEA 0183 Navigational Data Transport of NMEA 0183 sentences over TCP or UDP
+tcp,10172,Intuit Quickbooks client
+tcp,10200,fpscand | f-protd
+tcp,10212,GE Intelligent Platforms Proficy HMI/SCADA - CIMPLICITY WebView
+tcp,10308,Lock On: Modern Air Combat
+tcp,10480,SWAT 4
+udp,10505,BlueStacks (android simulator) broadcast
+tcp,10514,TLS-enabled Rsyslog (default by convention)
+udp,10514,TLS-enabled Rsyslog (default by convention)
+udp,10823,Farming Simulator 2011
+tcp,10891,Jungle Disk (this port is opened by the Jungle Disk Monitor service on the localhost)
+tcp,10933,Listen port used by the Octopus Deploy Tentacle deployment agent
+tcp,11001,metasys ( Johnson Controls Metasys java AC control environment )
+udp,11001,metasys ( Johnson Controls Metasys java AC control environment )
+tcp,11111,RiCcI Remote Configuration Interface (Redhat Linux)
+tcp,11112,ACR/NEMA Digital Imaging and Communications in Medicine (DICOM)
+udp,11112,ACR/NEMA Digital Imaging and Communications in Medicine (DICOM)
+tcp,11211,memcached
+udp,11211,memcached
+tcp,11214,memcached incoming SSL proxy
+udp,11214,memcached incoming SSL proxy
+tcp,11215,memcached internal outgoing SSL proxy
+udp,11215,memcached internal outgoing SSL proxy
+tcp,11235,Savage: Battle for Newerth
+tcp,11311,Robot Operating System master
+udp,11311,Robot Operating System master
+tcp,11371,OpenPGP HTTP key server
+udp,11371,OpenPGP HTTP key server
+tcp,11753,OpenRCT2 multiplayer
+udp,12012,Audition Online Dance Battle Korea Server-Status/Version Check
+tcp,12013,Audition Online Dance Battle Korea Server
+udp,12013,Audition Online Dance Battle Korea Server
+udp,12035,Second Life
+tcp,12043,Second Life
+tcp,12046,Second Life
+tcp,12201,Graylog Extended Log Format (GELF)
+udp,12222,Light Weight Access Point Protocol (LWAPP) LWAPP data (RFC 5412)
+udp,12223,Light Weight Access Point Protocol (LWAPP) LWAPP control (RFC 5412)
+tcp,12345,Cube World | Little Fighter 2 | NetBus remote administration tool (often Trojan horse)
+udp,12345,Cube World | Little Fighter 2 | NetBus remote administration tool (often Trojan horse)
+tcp,12443,IBM HMC web browser management access over HTTPS instead of default port 443
+tcp,12489,NSClient/NSClient++/NC_Net (Nagios)
+tcp,12975,LogMeIn Hamachi (VPN tunnel software; also port 32976)-used to connect to Mediation Server (bibihamachicc); will attempt to use SSL (TCP port 443) if both 12975 & 32976 fail to connect
+tcp,13008,CrossFire
+udp,13008,CrossFire
+tcp,13075,Default for BMC Software Control-M/Enterprise Manager Corba communication though often changed during installation
+tcp,13720,Symantec NetBackup-bprd (formerly VERITAS)
+udp,13720,Symantec NetBackup-bprd (formerly VERITAS)
+tcp,13721,Symantec NetBackup-bpdbm (formerly VERITAS)
+udp,13721,Symantec NetBackup-bpdbm (formerly VERITAS)
+tcp,13724,Symantec Network Utility-vnetd (formerly VERITAS)
+udp,13724,Symantec Network Utility-vnetd (formerly VERITAS)
+tcp,13782,Symantec NetBackup-bpcd (formerly VERITAS)
+udp,13782,Symantec NetBackup-bpcd (formerly VERITAS)
+tcp,13783,Symantec VOPIED protocol (formerly VERITAS)
+udp,13783,Symantec VOPIED protocol (formerly VERITAS)
+tcp,13785,Symantec NetBackup Database-nbdb (formerly VERITAS)
+udp,13785,Symantec NetBackup Database-nbdb (formerly VERITAS)
+tcp,13786,Symantec nomdb (formerly VERITAS)
+udp,13786,Symantec nomdb (formerly VERITAS)
+udp,14550,MAVLink
+udp,14567,Battlefield 1942 and mods
+tcp,15000,psyBNC | Wesnoth | Kaspersky Network Agent
+tcp,15345,XPilot
+udp,15345,XPilot
+tcp,15441,ZeroNet fileserver
+udp,15567,Battlefield Vietnam
+tcp,15672,RabbitMQ management plugin
+tcp,16000,Oracle WebCenter Content: Imaging (formerly known as Oracle Universal Content Management) Port though often changed during installation | shroudBNC
+tcp,16080,Mac OS X Server Web (HTTP) service with performance cache
+tcp,16200,Oracle WebCenter Content: Content Server (formerly known as Oracle Universal Content Management) Port though often changed during installation
+tcp,16225,Oracle WebCenter Content: Content Server Web UI Port though often changed during installation
+tcp,16250,Oracle WebCenter Content: Inbound Refinery (formerly known as Oracle Universal Content Management) Port though often changed during installation
+tcp,16261,Project Zomboid
+udp,16261,Project Zomboid
+tcp,16300,Oracle WebCenter Content: Records Management (formerly known as Oracle Universal Records Management) Port though often changed during installation
+udp,16384,CISCO Default RTP MIN | Real-time Transport Protocol (RTP) RTP Control Protocol (RTCP) used by Apple's iChat for audio and video | Real-time Transport Protocol (RTP) RTP Control Protocol (RTCP) used by Apple's FaceTime and Game Center
+udp,16387,Real-time Transport Protocol (RTP) RTP Control Protocol (RTCP) used by Apple's iChat for audio and video | Real-time Transport Protocol (RTP) RTP Control Protocol (RTCP) used by Apple's FaceTime and Game Center
+udp,16393,Real-time Transport Protocol (RTP) RTP Control Protocol (RTCP) used by Apple's FaceTime and Game Center
+tcp,16400,Oracle WebCenter Content: Capture (formerly known as Oracle Document Capture) Port though often changed during installation
+udp,16402,Real-time Transport Protocol (RTP) RTP Control Protocol (RTCP) used by Apple's FaceTime and Game Center
+udp,16403,Real-time Transport Protocol (RTP) RTP Control Protocol (RTCP) used by Apple's Game Center
+udp,16472,Real-time Transport Protocol (RTP) RTP Control Protocol (RTCP) used by Apple's Game Center
+tcp,16482,CISCO Default RTP MAX
+udp,16567,Battlefield 2 and mods
+tcp,17011,Worms multiplayer
+tcp,17500,Dropbox LanSync Protocol (db-lsp); used to synchronize file catalogs between Dropbox clients on a local network
+udp,17500,Dropbox LanSync Protocol (db-lsp); used to synchronize file catalogs between Dropbox clients on a local network
+tcp,18091,memcached Internal REST HTTPS for SSL
+udp,18091,memcached Internal REST HTTPS for SSL
+tcp,18092,memcached Internal CAPI HTTPS for SSL
+udp,18092,memcached Internal CAPI HTTPS for SSL
+tcp,18104,RAD PDF Service
+tcp,18200,Audition Online Dance Battle AsiaSoft Thailand Server status/version check
+udp,18200,Audition Online Dance Battle AsiaSoft Thailand Server status/version check
+tcp,18201,Audition Online Dance Battle AsiaSoft Thailand Server
+udp,18201,Audition Online Dance Battle AsiaSoft Thailand Server
+tcp,18206,Audition Online Dance Battle AsiaSoft Thailand Server FAM database
+udp,18206,Audition Online Dance Battle AsiaSoft Thailand Server FAM database
+tcp,18300,Audition Online Dance Battle AsiaSoft SEA Server status/version check
+udp,18300,Audition Online Dance Battle AsiaSoft SEA Server status/version check
+tcp,18301,Audition Online Dance Battle AsiaSoft SEA Server
+udp,18301,Audition Online Dance Battle AsiaSoft SEA Server
+tcp,18306,Audition Online Dance Battle AsiaSoft SEA Server FAM database
+udp,18306,Audition Online Dance Battle AsiaSoft SEA Server FAM database
+tcp,18333,Bitcoin testnet
+tcp,18400,Audition Online Dance Battle KAIZEN Brazil Server status/version check
+udp,18400,Audition Online Dance Battle KAIZEN Brazil Server status/version check
+tcp,18401,Audition Online Dance Battle KAIZEN Brazil Server
+udp,18401,Audition Online Dance Battle KAIZEN Brazil Server
+tcp,18505,Audition Online Dance Battle R4p3 Server Nexon Server status/version check
+udp,18505,Audition Online Dance Battle R4p3 Server Nexon Server status/version check
+tcp,18506,Audition Online Dance Battle Nexon Server
+udp,18506,Audition Online Dance Battle Nexon Server
+tcp,18605,X-BEAT status/version check
+udp,18605,X-BEAT status/version check
+tcp,18606,X-BEAT
+udp,18606,X-BEAT
+tcp,19000,Audition Online Dance Battle G10/alaplaya Server status/version check | JACK sound server
+udp,19000,Audition Online Dance Battle G10/alaplaya Server status/version check | JACK sound server
+tcp,19001,Audition Online Dance Battle G10/alaplaya Server
+udp,19001,Audition Online Dance Battle G10/alaplaya Server
+udp,19132,Minecraft: Pocket Edition
+tcp,19150,Gkrellm Server
+udp,19150,Gkrellm Server
+tcp,19226,Panda Software AdminSecure Communication Agent
+tcp,19283,K2-KeyAuditor & KeyServer Sassafras Software Inc Software Asset Management tools
+udp,19283,K2-KeyAuditor & KeyServer Sassafras Software Inc Software Asset Management tools
+tcp,19294,Google Talk Voice and Video connections
+udp,19295,Google Talk Voice and Video connections
+udp,19302,Google Talk Voice and Video connections
+tcp,19315,KeyShadow for K2-KeyAuditor & KeyServer Sassafras Software Inc Software Asset Management tools
+udp,19315,KeyShadow for K2-KeyAuditor & KeyServer Sassafras Software Inc Software Asset Management tools
+tcp,19812,4D database SQL Communication
+tcp,19813,4D database Client Server Communication
+udp,19813,4D database Client Server Communication
+tcp,19814,4D database DB4D Communication
+tcp,19999,Distributed Network Protocol-Secure (DNP-Secure) a secure version of the protocol used in SCADA systems between communicating RTU's and IED's
+tcp,20000,Distributed Network Protocol (DNP) a protocol used in SCADA systems between communicating RTU's and IED's | Usermin Web-based Unix/Linux user administration tool (default port) | Used on VoIP networks for receiving and transmitting voice telephony traffic which includes Google Voice via the OBiTalk ATA devices as well as on the MagicJack and Vonage ATA network devices
+udp,20000,Distributed Network Protocol (DNP) a protocol used in SCADA systems between communicating RTU's and IED's | Usermin Web-based Unix/Linux user administration tool (default port) | Used on VoIP networks for receiving and transmitting voice telephony traffic which includes Google Voice via the OBiTalk ATA devices as well as on the MagicJack and Vonage ATA network devices
+tcp,20560,Killing Floor
+udp,20560,Killing Floor
+udp,20595,0 AD Empires Ascendant
+udp,20808,Ableton Link
+tcp,21025,Starbound Server (default) Starbound
+tcp,22000,Syncthing (default)
+tcp,22136,FLIR Systems Camera Resource Protocol
+tcp,22222,Davis Instruments WeatherLink IP
+tcp,23073,Soldat Dedicated Server
+tcp,23399,Skype default protocol
+tcp,23513,Duke Nukem 3D
+tcp,24441,Pyzor spam detection network
+udp,24441,Pyzor spam detection network
+tcp,24444,NetBeans integrated development environment
+tcp,24465,Tonido Directory Server for Tonido which is a Personal Web App and P2P platform
+udp,24465,Tonido Directory Server for Tonido which is a Personal Web App and P2P platform
+tcp,24554,BINKP Fidonet mail transfers over TCP/IP
+udp,24554,BINKP Fidonet mail transfers over TCP/IP
+tcp,24800,Synergy: keyboard/mouse sharing software
+tcp,24842,StepMania: Online
+tcp,25565,Minecraft | Minecraft
+udp,25565,Minecraft | Minecraft
+udp,25575,Minecraft
+udp,25826,collectd default port
+tcp,26000,Quake | EVE Online | Xonotic
+udp,26000,Quake | EVE Online | Xonotic
+tcp,27000,SySAM
+udp,27015,GoldSrc and Source engine dedicated server port | Unturned
+tcp,27016,Magicka
+tcp,27017,mongod
+tcp,27374,Sub7 default
+udp,27888,Kaillera server
+udp,27950,OpenArena
+tcp,28001,Starsiege: Tribes
+udp,28015,Rust
+tcp,28852,Killing Floor
+udp,28852,Killing Floor
+tcp,28910,Nintendo Wi-Fi Connection
+udp,28910,Nintendo Wi-Fi Connection
+tcp,28960,Call of Duty
+udp,28960,Call of Duty
+tcp,29000,Perfect World
+tcp,29070,Jedi Knight: Jedi Academy
+udp,29070,Jedi Knight: Jedi Academy
+tcp,29920,Nintendo Wi-Fi Connection
+udp,29920,Nintendo Wi-Fi Connection
+tcp,30564,Multiplicity: keyboard/mouse/clipboard sharing software
+tcp,31337,Back Orifice remote administration tool
+tcp,31416,BOINC RPC
+tcp,31438,Rocket U2
+tcp,31457,TetriNET
+tcp,32137,Immunet Protect (UDP in version 20 TCP since version 30)
+udp,32137,Immunet Protect (UDP in version 20 TCP since version 30)
+tcp,32400,Plex Media Server
+tcp,32764,A backdoor found on certain Linksys Netgear and other wireless DSL modems/combination routers
+tcp,32887,Ace of Spades
+tcp,32976,LogMeIn Hamachi a VPN application; also TCP port 12975 and SSL (TCP 443)
+tcp,33434,traceroute
+udp,33434,traceroute
+udp,33848,Jenkins a continuous integration (CI) tool
+udp,34000,Infestation: Survivor Stories
+tcp,34197,Factorio
+tcp,35357,OpenStack Identity (Keystone) administration
+udp,37008,TZSP intrusion detection
+tcp,40000,SafetyNET p - a real-time Industrial Ethernet protocol
+udp,40000,SafetyNET p - a real-time Industrial Ethernet protocol
+tcp,43110,ZeroNet web UI default port
+tcp,44405,Mu Online
+tcp,44818,EtherNet/IP explicit messaging
+udp,44818,EtherNet/IP explicit messaging
+tcp,47001,Windows Remote Management Service (WinRM)
+tcp,47808,BACnet Building Automation and Control Networks (47808 = BAC0)
+udp,47808,BACnet Building Automation and Control Networks (47808 = BAC0)
+tcp,49151,Reserved
+udp,49151,Reserved
